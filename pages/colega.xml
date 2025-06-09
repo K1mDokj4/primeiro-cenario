@@ -15,12 +15,22 @@
       x="691" 
       y="550"
       font-size="20"
-      on_click="set(mensagem, '1')"
+      on_click="set(mensagem, $mensagem+1)"
     />
-    <fab-if when="$mensagem = '1'">
+    <fab-if when="$mensagem = 1">
       <agent
         id="Yoo"
-        text="kim?"
+        text="Kim Dokja? O que faz aqui?"
+        x="center" 
+        y="200" 
+        color="white"
+        animation="fade-in"
+      />
+    </fab-if>
+    <fab-if when="$mensagem = 2">
+      <agent
+        id="Yoo2"
+        text="dokja?"
         x="center" 
         y="200" 
         color="white"
