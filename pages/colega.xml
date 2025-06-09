@@ -47,7 +47,7 @@
       />
     </fab-if>
   <!-- Exemplo Kim -->
-      <fab-if when="$mensagem = 3">
+  <fab-if when="$mensagem = 3">
       <agent
         id="Yoo2"
         text="Foi uma surpresa para mim também, acabaram roubando minha bicicleta e aqui estou eu..."
