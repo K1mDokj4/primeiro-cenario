@@ -1,9 +1,9 @@
 <fable>
   <config font-family="Times New Roman" />
-
+  <property name="mensagem" default="valor_inicial" />
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
-
+  
   <start />
   <middle />
   <ending />
