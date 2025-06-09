@@ -23,7 +23,7 @@
     y="390"
     x="90"
     animation="hover-grow"
-    on_click="goToPage('')"
+    on_click="goToPage('colega')"
     font-size="20"
   />
   <agent
