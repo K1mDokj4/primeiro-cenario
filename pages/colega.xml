@@ -1,5 +1,5 @@
 <page id="colega" bg_color="black">
-  <agent
+    <agent
       id="narrativa"
       text="Você tomou uma decisão estranha... normalmente você não levanta a cabeça, olhando aos arredores você viu um cenário comum, um garoto sentava na sua frente com uma caixa e uma rede de pegar insetos, de longe você viu um funcionário da mesma empresa que você e por fim você trocou olhares com outra funcionária do seu mesmo setor..."
       color="white"
@@ -8,22 +8,23 @@
       font-size="20"
       animation="fade-in"
     />
-   <agent
-     id="dialogo"
-     text="clique aqui"
-     color="white"
-     x="center"
-     y="550"
-     font-size="10"
-     on_click="set($mensagem; 'kim?')"
-     />
-    <fab-if when="$mensagem!=''">
+    <agent
+      id="dialogo"
+      text="clique aqui"
+      color="white"
+      x="691" 
+      y="550"
+      font-size="20"
+      on_click="set(mensagem, '1')"
+    />
+    <fab-if when="$mensagem = '1'">
       <agent
         id="Yoo"
-        text="$mensagem"
-        x="center"
-        y="center"
+        text="kim?"
+        x="center" 
+        y="200" 
         color="white"
+        animation="fade-in"
       />
     </fab-if>
   </page>
