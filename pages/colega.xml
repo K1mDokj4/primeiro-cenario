@@ -1,3 +1,15 @@
 <page id="colega" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página colega" color="white" font-size="24" />
+<agent
+    id="narrativa"
+    text="Você tomou uma decisão estranha... normalmente você não levanta a cabeça, olhando aos arredores você viu um cenário comum, um garoto sentava na sua frente com uma caixa e uma rede de pegar insetos, de longe você viu um funcionário da mesma empresa que você e por fim você trocou olhares com outra funcionária do seu mesmo setor..."
+    color="white"
+    x="0"
+    y="20"
+    font-size="20"
+    animation="fade-in"
+  />
+  <agent
+    id = narrativa2
+    on on_click=""
+    />
 </page>
