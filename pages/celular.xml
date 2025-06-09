@@ -38,7 +38,7 @@
   <fab-if when="$mensagem = 1">
       <agent
         id="Yoo1"
-        text="Kim Dokja?"
+        text="?"
         x="center" 
         y="320" 
         color="orange"
