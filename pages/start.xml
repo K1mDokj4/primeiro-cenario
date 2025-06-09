@@ -3,8 +3,8 @@
     id="titulo"
     text='"Primeiro Cenário"'
     color="darkgoldenrod"
-    x="center"
-    y="center" 
+    x="300"
+    y="400" 
     font-size="52"
   />
   <agent
@@ -12,8 +12,8 @@
     text="Entrar no mêtro"
     color="gold"
     animation="hover-grow"
-    x="center"
-    y="350"
+    x="410"
+    y="470"
     font-size="30"
     on_click="goToPage('middle')"
   />
