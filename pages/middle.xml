@@ -1,4 +1,4 @@
-<page id="middle" bg_image="tech-bg-lab.png">
+<page id="middle" bg_color="black">
   <agent
     id="narrativa"
     text="No metro voltando do trabalho, você se sente como sempre: uma pessoa solitária em um vasto oceano de pessoas. Você já estava cansado disso, queria que sua vida inteira mudasse do dia para noite, queria ter feito outras escolhas, mas no fim você continuava sendo só mais um neste oceano."
