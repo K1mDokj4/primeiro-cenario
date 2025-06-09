@@ -1,3 +1,19 @@
 <page id="celular" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página celular" color="white" font-size="24" />
+  <agent 
+    id="Narrativa" 
+    x="0" 
+    y="20" 
+    text="No fim, você fez a mesma escolha, o anseio da mudança continuou sendo só um desejo, não uma ação. Você pegou o seu celular e percebeu algumas notificações:" 
+    color="white" 
+    font-size="24" 
+    />
+
+<agent 
+    id="Notificação" 
+    x="center" 
+    y="150" 
+    text="Novo capítulo lançado, Epílogo" 
+    color="white" 
+    font-size="24" 
+    />
 </page>
