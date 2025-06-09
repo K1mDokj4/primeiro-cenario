@@ -3,38 +3,39 @@
       id="narrativa"
       text="Você tomou uma decisão estranha... normalmente você não levanta a cabeça, olhando aos arredores você viu um cenário comum, um garoto sentava na sua frente com uma caixa e uma rede de pegar insetos, de longe você viu um funcionário da mesma empresa que você e por fim você trocou olhares com outra funcionária do seu mesmo setor..."
       color="white"
-      x="10"
-      y="20"
+      x="0"
+      y="200"
       font-size="20"
       animation="fade-in"
     />
     <agent
       id="dialogo"
-      text="clique aqui"
+      text="clique aqui para avançar o dialogo"
       color="white"
-      x="691" 
-      y="550"
-      font-size="20"
+      x="573" 
+      y="558"
+      font-size="15"
       on_click="set(mensagem, $mensagem+1)"
+      animation="fade-in"
     />
     <fab-if when="$mensagem = 1">
       <agent
         id="Yoo"
-        text="Kim Dokja? O que faz aqui?"
+        text="Kim Dokja?"
         x="center" 
-        y="200" 
-        color="white"
-        animation="fade-in"
+        y="400" 
+        color="orange"
+        animation="typewriter"
       />
     </fab-if>
     <fab-if when="$mensagem = 2">
       <agent
-        id="Yoo2"
-        text="dokja?"
+        id="Kim2"
+        text="É uma surpresa ver a senhorita aqui, srta. Sangah"
         x="center" 
-        y="200" 
-        color="white"
-        animation="fade-in"
+        y="400" 
+        color="skyblue"
+        animation="typewriter"
       />
     </fab-if>
   </page>
