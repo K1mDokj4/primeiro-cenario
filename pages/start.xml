@@ -1,19 +1,20 @@
 <page id="start" bg_image="station.png">
   <agent
     id="titulo"
-    text="Primeiro Cenário"
+    text='"Primeiro Cenário"'
     color="darkgoldenrod"
     x="center"
     y="center" 
-    font-size="54"
+    font-size="52"
   />
   <agent
     id="next_page_text"
-    text="Proxima Pagina"
+    text="Entrar no mêtro"
     color="gold"
     animation="hover-grow"
-    x="640"
-    y="480"
+    x="center"
+    y="350"
+    font-size="30"
     on_click="goToPage('middle')"
   />
 </page>
