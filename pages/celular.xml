@@ -1,7 +1,7 @@
 <page id="celular" bg_color="black">
   <agent 
     id="Narrativa" 
-    x="center" 
+    x="0" 
     y="20" 
     text="No fim, você fez a mesma escolha, o anseio da mudança continuou sendo só um desejo, não uma ação. Você pegou o seu celular e percebeu algumas notificações:" 
     color="white" 
@@ -19,10 +19,30 @@
     />
     <agent 
     id="Narrativa2" 
-    x="center" 
+    x="0" 
     y="170" 
-    text="Você começa a ler a novel com um pouco de pesar, você acompanha essa história a mais de uma década, faz sentido o ressentimento em terminar ela dessa forma. " 
+    text="Você começa a ler a novel com um pouco de pesar, você acompanha essa história a mais de uma década, faz sentido o ressentimento em terminar ela dessa forma. Mas de qualquer forma, você começa a ler ela e para na metade quando o metrô que você está começa a parar e piscar luzes de emergência, era uma situação bem estranha... " 
     color="white" 
     font-size="20"
     />
+  <agent
+      id="dialogo"
+      text="clique aqui para avançar o dialogo"
+      color="white"
+      x="572" 
+      y="558"
+      font-size="15"
+      on_click="set(mensagem, $mensagem+1)"
+      animation="fade-in"
+    />
+  <fab-if when="$mensagem = 1">
+      <agent
+        id="Yoo1"
+        text="Kim Dokja?"
+        x="center" 
+        y="400" 
+        color="orange"
+        animation="fade-in"
+      />
+  
 </page>
