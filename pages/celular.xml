@@ -1,4 +1,4 @@
-<page id="celular" bg_color="black">
+<page id="celular" bg_color="black"> 
   <agent 
     id="Narrativa" 
     x="0" 
@@ -16,8 +16,8 @@
     color="lightgoldenrodyellow" 
     font-size="20"
     animation="pulse"
-    />
-    <agent 
+   />
+  <agent 
     id="Narrativa2" 
     x="0" 
     y="170" 
@@ -40,8 +40,9 @@
         id="Yoo1"
         text="Kim Dokja?"
         x="center" 
-        y="400" 
+        y="320" 
         color="orange"
         animation="fade-in"
-      /> 
+      />
+    </fab-if>
 </page>
