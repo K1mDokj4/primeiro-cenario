@@ -43,6 +43,5 @@
         y="400" 
         color="orange"
         animation="fade-in"
-      />
-  
+      /> 
 </page>
