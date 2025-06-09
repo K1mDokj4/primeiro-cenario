@@ -8,6 +8,7 @@
       font-size="20"
       animation="fade-in"
     />
+  //Eu fiz um contador para que eu não precisasse usar muitas páginas só para diálogo, cada clique conta para a passagem; Eu queria que fosse na tela toda mas não descobri como fazer, então usei um "balao de texto" para atuar como botão 
     <agent
       id="dialogo"
       text="clique aqui para avançar o dialogo"
@@ -20,22 +21,32 @@
     />
     <fab-if when="$mensagem = 1">
       <agent
-        id="Yoo"
+        id="Yoo1"
         text="Kim Dokja?"
         x="center" 
         y="400" 
         color="orange"
-        animation="typewriter"
+        animation="fade-in"
       />
     </fab-if>
     <fab-if when="$mensagem = 2">
       <agent
-        id="Kim2"
+        id="Kim1"
         text="É uma surpresa ver a senhorita aqui, srta. Sangah"
-        x="center" 
+        x="center"
         y="400" 
         color="skyblue"
-        animation="typewriter"
+        animation="fade-in"
+      />
+    </fab-if>
+      <fab-if when="$mensagem = 3">
+      <agent
+        id="Yoo2"
+        text="É uma surpresa ver a senhorita aqui, srta. Sangah"
+        x="center"
+        y="400" 
+        color="orange"
+        animation="fade-in"
       />
     </fab-if>
   </page>
