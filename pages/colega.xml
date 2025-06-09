@@ -1,15 +1,29 @@
 <page id="colega" bg_color="black">
-<agent
-    id="narrativa"
-    text="Você tomou uma decisão estranha... normalmente você não levanta a cabeça, olhando aos arredores você viu um cenário comum, um garoto sentava na sua frente com uma caixa e uma rede de pegar insetos, de longe você viu um funcionário da mesma empresa que você e por fim você trocou olhares com outra funcionária do seu mesmo setor..."
-    color="white"
-    x="0"
-    y="20"
-    font-size="20"
-    animation="fade-in"
-  />
   <agent
-    id = narrativa2
-    on on_click=""
+      id="narrativa"
+      text="Você tomou uma decisão estranha... normalmente você não levanta a cabeça, olhando aos arredores você viu um cenário comum, um garoto sentava na sua frente com uma caixa e uma rede de pegar insetos, de longe você viu um funcionário da mesma empresa que você e por fim você trocou olhares com outra funcionária do seu mesmo setor..."
+      color="white"
+      x="10"
+      y="20"
+      font-size="20"
+      animation="fade-in"
     />
+    <agent
+      id="tela"
+      x="0"
+      y="0"
+      width="800"
+      height="600"
+      on_click="set(mensagem, 'Você clicou na tela!')"
+    />
+    <fab-if when="$mensagem != 'valor_inicial'">
+      <agent
+        id="mensagem-clicada"
+        x="10"
+        y="100"
+        text="$mensagem"
+        color="yellow"
+        font-size="18"
+      />
+    </fab-if>
 </page>
