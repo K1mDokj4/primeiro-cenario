@@ -16,7 +16,7 @@
       id="dialogo"
       text="clique aqui para avançar o dialogo"
       color="white"
-      x="573" 
+      x="572" 
       y="558"
       font-size="15"
       on_click="set(mensagem, $mensagem+1)"
