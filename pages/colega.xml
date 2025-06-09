@@ -22,7 +22,8 @@
       on_click="set(mensagem, $mensagem+1)"
       animation="fade-in"
     />
-    <fab-if when="$mensagem = 1">
+    
+  <fab-if when="$mensagem = 1">
       <agent
         id="Yoo1"
         text="Kim Dokja?"
@@ -32,8 +33,10 @@
         animation="fade-in"
       />
     </fab-if>
+  
   <!-- Exemplo yoo Sangah -->
-    <fab-if when="$mensagem = 2">
+    
+  <fab-if when="$mensagem = 2">
       <agent
         id="Kim1"
         text="É uma surpresa ver a senhorita aqui, srta. Sangah"
@@ -54,7 +57,8 @@
         animation="fade-in"
       />
     </fab-if>
-   <fab-if when="$mensagem = 4">
+   
+  <fab-if when="$mensagem = 4">
       <agent
         id="Kim2"
         text="『É estranho... visto que para alguém roubar algo assim teria que ter acesso ao estacionamento dos funcionários』"
@@ -64,7 +68,8 @@
         animation="fade-in"
       />
     </fab-if>
-     <fab-if when="$mensagem = 5">
+     
+  <fab-if when="$mensagem = 5">
       <agent
         id="Kim3"
         text="『Senti o olhar fulminante do Gerente, acho que entendi o porquê de alguém que exibia orgulhosamente o seu carro estar andando de transporte público』"
@@ -74,5 +79,39 @@
         animation="fade-in"
       />
     </fab-if>
+
+      <fab-if when="$mensagem = 6">
+      <agent
+        id="Yoo3"
+        text="Enfim foi uma mais uma surpresa para finalizar essa semamana『Ela soltou uma risada』e você..."
+        x="center"
+        y="400" 
+        color="orange"
+        animation="fade-in"
+      />
+    </fab-if> 
+
+        <fab-if when="$mensagem = 7">
+      <agent
+        id="Kim4"
+        text="『A frase de Yoo Sangah foi cortada pelo barulho do metro parando, e de luzes piscando』"
+        x="center"
+        y="400" 
+        color="skyblue"
+        animation="fade-in"
+      />
+    </fab-if> 
+
+          <fab-if when="$mensagem = 8">
+      <agent
+        id="Kim4"
+        text="『A frase de Yoo Sangah foi cortada pelo barulho do metro parando, e de luzes piscando』"
+        x="center"
+        y="400" 
+        color="skyblue"
+        animation="fade-in"
+      />
+    </fab-if>  
+  
   <!-- Fim Diálogos -->
   </page>
