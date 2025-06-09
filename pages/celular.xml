@@ -5,15 +5,24 @@
     y="20" 
     text="No fim, você fez a mesma escolha, o anseio da mudança continuou sendo só um desejo, não uma ação. Você pegou o seu celular e percebeu algumas notificações:" 
     color="white" 
-    font-size="24" 
+    font-size="20" 
     />
 
 <agent 
     id="Notificação" 
-    x="center" 
-    y="150" 
+    x="260" 
+    y="110" 
     text="Novo capítulo lançado, Epílogo." 
+    color="lightgray" 
+    font-size="20"
+    animation="pulse"
+    />
+    <agent 
+    id="Narrativa2" 
+    x="center" 
+    y="170" 
+    text="Você começa a ler a novel com um pouco de pesar, você acompanha essa história a mais de uma década, faz sentido o ressentimento em terminar ela dessa forma. " 
     color="white" 
-    font-size="24" 
+    font-size="20"
     />
 </page>
