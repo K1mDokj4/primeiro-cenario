@@ -93,7 +93,7 @@
           y="390"
           x="90"
           animation="hover-grow"
-          on_click="goToPage('colega')"
+          on_click="set(mensagem, 0); goToPage('colega')"
           font-size="20"
           />
         <agent
@@ -102,7 +102,7 @@
           y="390"
           x="475"
           animation="hover-grow"
-          on_click="goToPage('celular')"
+          on_click="set(mensagem, 0); goToPage('celular')"
           font-size="20"
         />
     </fab-if>
