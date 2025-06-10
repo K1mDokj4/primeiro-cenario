@@ -1,4 +1,4 @@
-<page id="middle" bg_image="metroballontext_800x600.png">
+<page id="middle" bg_image="metroballontext_800x600_2_.png">
 
     <agent
       id="narrativa"
@@ -8,7 +8,7 @@
       y="546"
       font-size="15"
       on_click="set(mensagem, $mensagem+1)"
-      animation="fade-in"
+      animation="hover-grow"
     />
     <fab-if when="$mensagem = 0">
       <agent
@@ -16,7 +16,7 @@
         text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver"'
         x="0" 
         y="455" 
-        color="white"
+        color="palegoldenrod"
         font-size="20"
         animation="fade-in-up"
       />
@@ -24,11 +24,23 @@
   
   <fab-if when="$mensagem = 1">
       <agent
-        id="narrador"
+        id="kim1"
         text="Hã...? Sério? É só isso?"
         x="300" 
-        y="150" 
-        color="cornflowerblue"
+        y="455" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+    
+  <fab-if when="$mensagem = 2">
+      <agent
+        id="kim2"
+        text=""
+        x="300" 
+        y="455" 
+        color="darkgoldenrod"
         font-size="24"
         animation="fade-in-up"
       />
