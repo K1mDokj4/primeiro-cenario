@@ -1,125 +1,24 @@
-<page id="colega" bg_color="black">
-    <agent
-      id="narrativa"
-      text="Você tomou uma decisão estranha... normalmente você não levanta a cabeça, olhando aos arredores você viu um cenário comum, um garoto sentava na sua frente com uma caixa e uma rede de pegar insetos, de longe você viu um funcionário da mesma empresa que você e por fim você trocou olhares com outra funcionária do seu mesmo setor..."
-      color="white"
-      x="0"
-      y="200"
-      font-size="20"
-      animation="fade-in"
-    />
+<page id="colega" bg_image="metroballontext_800x600_2_.png">
   
-  <!-- Eu fiz um contador para que eu não precisasse usar muitas páginas só para diálogo, cada clique conta para a passagem; Eu queria que fosse na tela toda mas não descobri como fazer, então usei um "balao de texto" para atuar como botão. Eu não sei como funciona B) acho que poderia colocar um contador para o ID tbm, mas eu tenho medo de entrar em conflito caso eu use em outros lugares --> 
-  
-  <!-- Sessão de Diálogos -->
-    <agent
-      id="dialogo"
-      text="clique aqui para avançar o dialogo"
-      color="white"
-      x="572" 
-      y="558"
-      font-size="15"
-      on_click="set(mensagem, $mensagem+1)"
-      animation="fade-in"
-    />
-    
-  <fab-if when="$mensagem = 1">
+  <agent
+    id="narrativa"
+    text="clique aqui para avançar"
+    color="darkgray"
+    x="615" 
+    y="546"
+    font-size="15"
+    on_click="set(mensagem, $mensagem+1)"
+    animation="hover-grow"
+  />
+   <fab-if when="$mensagem = 0">
       <agent
-        id="Yoo1"
-        text="Kim Dokja?"
-        x="center" 
-        y="400" 
-        color="orange"
-        animation="fade-in"
+        id="narrador2"
+        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia,"
+        x="10" 
+        y="454" 
+        color="dimgray"
         font-size="24"
+        animation="fade-in-up"
       />
     </fab-if>
-  
-  <!-- Exemplo yoo Sangah -->
-    
-  <fab-if when="$mensagem = 2">
-      <agent
-        id="Kim1"
-        text="É uma surpresa ver a senhorita aqui, srta. Sangah"
-        x="center"
-        y="400" 
-        color="skyblue"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if>
-  <!-- Exemplo Kim -->
-  <fab-if when="$mensagem = 3">
-      <agent
-        id="Yoo2"
-        text="Foi uma surpresa para mim também, acabaram roubando minha bicicleta e aqui estou eu..."
-        x="center"
-        y="400" 
-        color="orange"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if>
-   
-  <fab-if when="$mensagem = 4">
-      <agent
-        id="Kim2"
-        text="『É estranho... visto que para alguém roubar algo assim teria que ter acesso ao estacionamento dos funcionários』"
-        x="center"
-        y="400" 
-        color="skyblue"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if>
-     
-  <fab-if when="$mensagem = 5">
-      <agent
-        id="Kim3"
-        text="『Senti o olhar fulminante do Gerente, acho que entendi o porquê de alguém que exibia orgulhosamente o seu carro estar andando de transporte público』"
-        x="center"
-        y="400" 
-        color="skyblue"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if>
-
-      <fab-if when="$mensagem = 6">
-      <agent
-        id="Yoo3"
-        text="Enfim foi uma mais uma surpresa para finalizar essa semamana『Ela soltou uma risada』e você..."
-        x="center"
-        y="400" 
-        color="orange"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if> 
-
-        <fab-if when="$mensagem = 7">
-      <agent
-        id="Kim4"
-        text="『A frase de Yoo Sangah foi cortada pelo barulho do metro parando, e de luzes piscando』"
-        x="center"
-        y="400" 
-        color="skyblue"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if> 
-
-          <fab-if when="$mensagem = 8">
-      <agent
-        id="Kim5"
-        text="『A frase de Yoo Sangah foi cortada pelo barulho do metro parando, e de luzes piscando』"
-        x="center"
-        y="400" 
-        color="skyblue"
-        animation="fade-in"
-        font-size="24"
-      />
-    </fab-if>  
-  
-  <!-- Fim Diálogos -->
   </page>
