@@ -13,7 +13,8 @@
     <fab-if when="$mensagem = 0">
       <agent
         id="narrador"
-        text="Kim Dokja?"
+        text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver"
+        -FIM'
         x="center" 
         y="150" 
         color="white"
