@@ -1,4 +1,4 @@
-<page id="middle" bg_color="black">
+<page id="middle" bg_image="metroballontext.png">
 
     <agent
       id="narrativa"
