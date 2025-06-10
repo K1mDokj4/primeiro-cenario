@@ -1,5 +1,7 @@
 <page id="middle" bg_image="metroballontext_800x600_2_.png">
 
+  <!-- Eu fiz um contador para que eu não precisasse usar muitas páginas só para diálogo, cada clique conta para a passagem; Eu queria que fosse na tela toda mas não descobri como fazer, então usei um "balao de texto" para atuar como trigger. acho que poderia colocar um contador para o ID tbm, mas eu tenho medo de entrar em conflito -->
+  
     <agent
       id="narrativa"
       text="clique aqui para avançar"
@@ -7,10 +9,13 @@
       x="615" 
       y="546"
       font-size="15"
-      on_click="set(mensagem, $mensagem+1)"
+      on_click="set(dialogo_middle, $dialogo_middle+1)"
       animation="hover-grow"
     />
-    <fab-if when="$mensagem = 0">
+
+
+  <!-- Sessão de diálogo -->
+  <fab-if when="$dialogo_middle = 0">
       <agent
         id="tws"
         text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver -FIM"'
@@ -22,7 +27,7 @@
       />
     </fab-if>
   
-  <fab-if when="$mensagem = 1">
+  <fab-if when="$dialogo_middle = 1">
       <agent
         id="kim1"
         text="Hã...? Sério? É só isso?"
@@ -34,7 +39,7 @@
       />
     </fab-if>
     
-  <fab-if when="$mensagem = 2">
+  <fab-if when="$dialogo_middle = 2">
       <agent
         id="narrador2"
         text="No metrô voltando do trabalho você se sente como sempre: uma pessoa solitária aproveitando de seu hobbie, ler webnovels de fantasia"
@@ -46,7 +51,7 @@
       />
     </fab-if>
   
-    <fab-if when="$mensagem = 3">
+    <fab-if when="$dialogo_middle = 3">
       <agent
         id="kim3"
         text=" Você é só mais um nesse vasto oceano que é o mundo, você já parecia acostumado com isso, mas ainda sim, não deixava de ser um fardo"
@@ -58,7 +63,7 @@
       />
     </fab-if>
 
-    <fab-if when="$mensagem = 4">
+    <fab-if when="$dialogo_middle = 4">
       <agent
         id="kim4"
         text="『Hoje foi o dia em que a novel de fantasia que eu leio há mais de 10 anos acabou』"
@@ -69,43 +74,45 @@
         animation="fade-in-up"
       />
     </fab-if>
-
-      <fab-if when="$mensagem = 5">
-        <agent 
+  
+<!-- TRIGGERS -->
+  
+      <fab-if when="$dialogo_middle = 5">
+       <agent 
          id="imagem1" 
          x="0" 
          y="0" 
          image="metro2.png" 
          animation="fade-in"
-         /> 
-       <agent
-        id="pergunta"
-        text="Tem algo que você queira fazer?"
-        color="gold"
-        x="center"
-        y="300"
-        font-size="25"
-        animation="fade-in"
+        /> 
+        <agent
+          id="pergunta"
+          text="Tem algo que você queira fazer?"
+          color="gold"
+          x="center"
+          y="300"
+          font-size="25"
+          animation="fade-in"
         />
-         <agent
+        <agent
           id="trigger_colega"
           text="Olhar para os passageiros"
           y="390"
           x="90"
           animation="hover-grow"
-          on_click="set(mensagem, 0); goToPage('colega')"
+          on_click="set(dialogo_middle, 0); goToPage('colega')"
           font-size="20"
-          />
+        />
         <agent
           id="trigger_celular"
           text="Olhar para o seu celular"
           y="390"
           x="475"
           animation="hover-grow"
-          on_click="set(mensagem, 0); goToPage('celular')"
+          on_click="set(dialogo_middle, 0); goToPage('celular')"
           font-size="20"
         />
     </fab-if>
-  <!-- Colocar isso dentro de um IF -->
+  
 
 </page>
