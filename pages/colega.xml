@@ -13,7 +13,7 @@
    <fab-if when="$mensagem_colega = 0">
       <agent
         id="narrador2"
-        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia,"
+        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia, mas você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão"
         x="10" 
         y="454" 
         color="dimgray"
@@ -22,5 +22,16 @@
       />
     </fab-if>
 
+     <fab-if when="$mensagem_colega = 1">
+      <agent
+        id="narrador3"
+        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia,"
+        x="10" 
+        y="445" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   
   </page>
