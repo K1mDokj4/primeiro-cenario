@@ -112,7 +112,5 @@
           on_click="set(mensagem, 0); goToPage('celular')"
           font-size="20"
         />
-
- 
-
+        </fab-if>
 </page>
