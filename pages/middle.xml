@@ -71,12 +71,40 @@
     </fab-if>
 
       <fab-if when="$mensagem = 5">
-       <agent 
+        <agent 
          id="imagem1" 
-         x="200" 
-         y="150" 
-         image="forest-hero-idle.png" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
          /> 
+       <agent
+        id="pergunta"
+        text="Tem algo que você queira fazer?"
+        color="gold"
+        x="center"
+        y="300"
+        font-size="25"
+        animation="fade-in"
+        />
+         <agent
+          id="trigger_colega"
+          text="Olhar para os passageiros"
+          y="390"
+          x="90"
+          animation="hover-grow"
+          on_click="goToPage('colega')"
+          font-size="20"
+          />
+        <agent
+          id="trigger_celular"
+          text="Olhar para o seu celular"
+          y="390"
+          x="475"
+          animation="hover-grow"
+          on_click="goToPage('celular')"
+          font-size="20"
+        />
     </fab-if>
   <!-- Colocar isso dentro de um IF -->
 
