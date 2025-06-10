@@ -15,9 +15,9 @@
         id="narrador"
         text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver"'
         x="0" 
-        y="455" 
+        y="445" 
         color="palegoldenrod"
-        font-size="20"
+        font-size="24"
         animation="fade-in-up"
       />
     </fab-if>
@@ -26,9 +26,9 @@
       <agent
         id="kim1"
         text="Hã...? Sério? É só isso?"
-        x="300" 
-        y="455" 
-        color="darkgoldenrod"
+        x="10" 
+        y="445" 
+        color="skyblue"
         font-size="24"
         animation="fade-in-up"
       />
@@ -37,10 +37,34 @@
   <fab-if when="$mensagem = 2">
       <agent
         id="kim2"
-        text=""
-        x="300" 
-        y="455" 
-        color="darkgoldenrod"
+        text="『Meu hobbie é ler novels no caminho de volta para casa』"
+        x="10" 
+        y="445" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  
+    <fab-if when="$mensagem = 3">
+      <agent
+        id="kim3"
+        text="『Mas, hoje na volta foi um pouco diferente do habitual...』"
+        x="10" 
+        y="445" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+      <fab-if when="$mensagem = 4">
+      <agent
+        id="Yoo1"
+        text="Você vai ser sugado pelo seu celular desse jeito"
+        x="10" 
+        y="445" 
+        color=""
         font-size="24"
         animation="fade-in-up"
       />
