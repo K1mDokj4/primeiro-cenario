@@ -112,18 +112,7 @@
           on_click="set(mensagem, 0); goToPage('celular')"
           font-size="20"
         />
-        <fab-else>
-      <agent
-      id="narrativa"
-      text="clique aqui para avançar"
-      color="darkgray"
-      x="615" 
-      y="546"
-      font-size="15"
-      on_click="set(mensagem, 0)"
-      animation="hover-grow"
-    />
-        </fab-else>
+
  
 
 </page>
