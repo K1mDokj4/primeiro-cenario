@@ -13,10 +13,10 @@
     <fab-if when="$mensagem = 0">
       <agent
         id="narrador"
-        text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver"'
+        text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver -FIM"'
         x="0" 
         y="445" 
-        color="palegoldenrod"
+        color="darkgoldenrod"
         font-size="24"
         animation="fade-in-up"
       />
@@ -49,7 +49,7 @@
     <fab-if when="$mensagem = 3">
       <agent
         id="kim3"
-        text="『Mas, hoje na volta foi um pouco diferente do habitual...』"
+        text="『Hoje finalmente iria acabar a novel que estou lendo a anos... me preparei para esse momento só para receber um parágrafo...』"
         x="10" 
         y="445" 
         color="skyblue"
@@ -58,7 +58,7 @@
       />
     </fab-if>
 
-      <fab-if when="$mensagem = 4">
+    <fab-if when="$mensagem = 4">
       <agent
         id="Yoo1"
         text="Você vai ser sugado pelo seu celular desse jeito"
