@@ -2,8 +2,8 @@
   <config font-family="Times New Roman" />
   <property name="pontuacao" default="0" />
   <property name="visitante" default="Aventureiro" />
-  <property name="mensagem" default="0" />
-  
+  <property name="mensagem_middle" default="0" />
+  <property name="mensagem_colega" default="0" />
   <start />
   <middle />
   <ending />
