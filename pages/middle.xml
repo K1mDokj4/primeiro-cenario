@@ -3,7 +3,7 @@
     <agent
       id="narrativa"
       text="clique aqui para avançar"
-      color="gold"
+      color="darkgray"
       x="615" 
       y="546"
       font-size="15"
@@ -12,7 +12,7 @@
     />
     <fab-if when="$mensagem = 0">
       <agent
-        id="narrador"
+        id="tws"
         text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver -FIM"'
         x="0" 
         y="445" 
@@ -36,11 +36,11 @@
     
   <fab-if when="$mensagem = 2">
       <agent
-        id="kim2"
-        text="『Meu hobbie é ler novels no caminho de volta para casa』"
+        id="narrador2"
+        text="No metrô voltando do trabalho você se sente como sempre: uma pessoa solitária aproveitando de seu hobbie, ler webnovels de fantasia"
         x="10" 
-        y="445" 
-        color="skyblue"
+        y="454" 
+        color="dimgray"
         font-size="24"
         animation="fade-in-up"
       />
@@ -49,7 +49,19 @@
     <fab-if when="$mensagem = 3">
       <agent
         id="kim3"
-        text="『Hoje finalmente iria acabar a novel que estou lendo a anos... me preparei para esse momento só para receber um parágrafo...』"
+        text=" Você é só mais um nesse vasto oceano que é o mundo, você já parecia acostumado com isso, mas ainda sim, não deixava de ser um fardo"
+        x="10" 
+        y="450" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem = 4">
+      <agent
+        id="kim4"
+        text="『Hoje foi o dia em que a novel de fantasia que eu leio há mais de 10 anos acabou』"
         x="10" 
         y="445" 
         color="skyblue"
@@ -58,16 +70,13 @@
       />
     </fab-if>
 
-    <fab-if when="$mensagem = 4">
-      <agent
-        id="Yoo1"
-        text="Você vai ser sugado pelo seu celular desse jeito"
-        x="10" 
-        y="445" 
-        color="#ce9a74"
-        font-size="24"
-        animation="fade-in-up"
-      />
+      <fab-if when="$mensagem = 5">
+       <agent 
+         id="imagem1" 
+         x="200" 
+         y="150" 
+         image="forest-hero-idle.png" 
+         /> 
     </fab-if>
   <!-- Colocar isso dentro de um IF -->
 
