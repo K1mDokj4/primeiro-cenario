@@ -35,15 +35,28 @@
       />
     </fab-if>
 
-       <fab-if when="$mensagem_colega = 1">
+       <fab-if when="$mensagem_colega = 2">
       <agent
-        id="narrador3"
-        text=" 『Você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão』"
-        x="10" 
+        id="narrador4"
+        text=" 『Na sua frente tinha um grupo de adolescente conversando alto sobre alguma coisa que você não conhece』"
+        x="0" 
         y="454" 
         color="dimgray"
         font-size="24"
         animation="fade-in-up"
       />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 2">
+      <agent
+        id="narrador4"
+        text=" 『Ao lado deles tem uma mãe e seu filho, ele tem 』"
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+      
     </fab-if>
   </page>
