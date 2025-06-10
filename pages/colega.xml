@@ -31,6 +31,7 @@
         y="400" 
         color="orange"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if>
   
@@ -44,6 +45,7 @@
         y="400" 
         color="skyblue"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if>
   <!-- Exemplo Kim -->
@@ -55,6 +57,7 @@
         y="400" 
         color="orange"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if>
    
@@ -66,6 +69,7 @@
         y="400" 
         color="skyblue"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if>
      
@@ -77,6 +81,7 @@
         y="400" 
         color="skyblue"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if>
 
@@ -88,6 +93,7 @@
         y="400" 
         color="orange"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if> 
 
@@ -99,17 +105,19 @@
         y="400" 
         color="skyblue"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if> 
 
           <fab-if when="$mensagem = 8">
       <agent
-        id="Kim4"
+        id="Kim5"
         text="『A frase de Yoo Sangah foi cortada pelo barulho do metro parando, e de luzes piscando』"
         x="center"
         y="400" 
         color="skyblue"
         animation="fade-in"
+        font-size="24"
       />
     </fab-if>  
   
