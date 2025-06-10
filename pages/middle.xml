@@ -35,7 +35,7 @@
         y="445" 
         color="skyblue"
         font-size="24"
-        animation="fade-in-up"
+        animation="breathing hover-shadow click-shake"
       />
     </fab-if>
     
