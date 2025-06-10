@@ -13,33 +13,26 @@
     <fab-if when="$mensagem = 0">
       <agent
         id="narrador"
-        text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver"
-        -FIM'
-        x="center" 
+        text='"Existem três maneiras de sobreviver em um mundo destruído. Atualmente eu esqueci algumas delas, mas uma coisa é certa: O fato de que você está lendo isso significa que irá sobreviver" -FIM'
+        x="0" 
         y="150" 
         color="white"
-        animation="fade-in"
         font-size="24"
+        animation="fade-in-up"
       />
     </fab-if>
   
+  <fab-if when="$mensagem = 1">
+      <agent
+        id="narrador"
+        text="Hã...? Sério? É só isso?"
+        x="300" 
+        y="150" 
+        color="cornflowerblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   <!-- Colocar isso dentro de um IF -->
-  <agent
-    id="trigger_colega"
-    text="Olhar para os passageiros"
-    y="390"
-    x="90"
-    animation="hover-grow"
-    on_click="goToPage('colega')"
-    font-size="20"
-  />
-  <agent
-    id="trigger_celular"
-    text="Olhar para o seu celular"
-    y="390"
-    x="475"
-    animation="hover-grow"
-    on_click="goToPage('celular')"
-    font-size="20"
-  />
+
 </page>
