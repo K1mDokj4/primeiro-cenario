@@ -97,10 +97,10 @@
         <agent
           id="trigger_colega"
           text="Olhar para os passageiros"
-          y="390"
           x="90"
+          y="390"
           animation="hover-grow"
-          on_click="set(mensagem_middle, 0); set(insetos, True); goToPage('colega')"
+          on_click="set(mensagem_middle, 0); set(insetos, true); goToPage('colega')"
           font-size="20"
         />
         <agent
@@ -109,7 +109,7 @@
           y="390"
           x="475"
           animation="hover-grow"
-          on_click="set(mensagem_middle, 0); set(insetos, False); goToPage('celular')" 
+          on_click="set(mensagem_middle, 0); set(insetos, false); goToPage('celular')" 
           font-size="20"
         />
         <!-- Mesmo que o default já seja False, é uma medida de segurança para que você não entre em conflito -->
