@@ -7,10 +7,10 @@
     x="615" 
     y="546"
     font-size="15"
-    on_click="set(mensagem, $mensagem+1)"
+    on_click="set(mensagem_colega, $mensagem_colega+1)"
     animation="hover-grow"
   />
-   <fab-if when="$mensagem = 0">
+   <fab-if when="$mensagem_colega = 0">
       <agent
         id="narrador2"
         text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia,"
@@ -21,4 +21,6 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  
   </page>
