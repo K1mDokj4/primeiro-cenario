@@ -10,10 +10,11 @@
     on_click="set(mensagem_colega, $mensagem_colega+1)"
     animation="hover-grow"
   />
-   <fab-if when="$mensagem_colega = 0">
+   
+  <fab-if when="$mensagem_colega = 0">
       <agent
         id="narrador2"
-        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia, mas você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão"
+        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você faria"
         x="10" 
         y="454" 
         color="dimgray"
@@ -25,13 +26,24 @@
      <fab-if when="$mensagem_colega = 1">
       <agent
         id="narrador3"
-        text="Você tomou uma decisão estranha... normalemnte não era uma decisão que você fazia,"
+        text=" 『Você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão』"
         x="10" 
-        y="445" 
+        y="454" 
         color="dimgray"
         font-size="24"
         animation="fade-in-up"
       />
     </fab-if>
-  
+
+       <fab-if when="$mensagem_colega = 1">
+      <agent
+        id="narrador3"
+        text=" 『Você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão』"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   </page>
