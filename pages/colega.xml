@@ -47,16 +47,15 @@
       />
     </fab-if>
 
-    <fab-if when="$mensagem_colega = 2">
+    <fab-if when="$mensagem_colega = 3">
       <agent
-        id="narrador4"
-        text=" 『Ao lado deles tem uma mãe e seu filho, ele tem 』"
+        id="narrador5"
+        text=" 『Ao lado deles tem uma mãe e seu filho, ele tem uma caixa de guardar insetos e uma rede, seus joelhos parecem sujos de terra』"
         x="0" 
         y="454" 
         color="dimgray"
         font-size="24"
         animation="fade-in-up"
       />
-      
     </fab-if>
   </page>
