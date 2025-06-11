@@ -341,9 +341,21 @@
           text="SKRRRR!"
           x="300" 
           y="454" 
-          color="crimson"
+          color="darkgray"
           font-size="36"
           animation="slide-right"
+          />
+      </fab-if>
+   
+  <fab-if when="$mensagem_colega = 28">
+        <agent
+          id="Crownd"
+          text="ISSO É UM ATAQUE TERRORISTA?!"
+          x="0" 
+          y="454" 
+          color="silver"
+          font-size="24"
+          animation="fade-in"
           />
       </fab-if>
 
