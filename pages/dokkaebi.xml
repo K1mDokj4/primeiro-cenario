@@ -116,4 +116,29 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 9">
+      <agent
+        id="tws2"
+        text='"Envolta em uma porção de feno, a estranha e peluda criatura estava flutuando no ar"'
+        x="0" 
+        y="475" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 10">
+      <agent
+        id="tws2"
+        text='"Ela era grotesca demais para ser uma Fada, muito nefasta para um Anjo e muito inofenciva para ser o Diabo"'
+        x="0" 
+        y="475" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  
 </page>
