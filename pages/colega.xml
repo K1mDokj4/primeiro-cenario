@@ -26,7 +26,7 @@
      <fab-if when="$mensagem_colega = 1">
       <agent
         id="narrador3"
-        text=" 『Você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão』"
+        text=" Você aproveitou esse momento para olhar os redores enquanto ficava com o celular na mão"
         x="10" 
         y="454" 
         color="dimgray"
@@ -38,7 +38,7 @@
        <fab-if when="$mensagem_colega = 2">
       <agent
         id="narrador4"
-        text=" 『Na sua frente tinha um grupo de adolescente conversando alto sobre alguma coisa que você não conhece』"
+        text=" Na sua frente tinha um grupo de adolescente conversando alto sobre alguma coisa que você não conhece"
         x="0" 
         y="454" 
         color="dimgray"
@@ -50,7 +50,7 @@
     <fab-if when="$mensagem_colega = 3">
       <agent
         id="narrador5"
-        text=" 『Ao lado deles tem uma mãe e seu filho, ele tem uma caixa de guardar insetos e uma rede, seus joelhos parecem sujos de terra』"
+        text=" Ao lado deles tem uma mãe e seu filho, ele tem uma caixa de guardar insetos e uma rede, seus joelhos parecem sujos de terra"
         x="0" 
         y="454" 
         color="dimgray"
@@ -59,10 +59,10 @@
       />
     </fab-if>
 
-      <fab-if when="$mensagem_colega = 4">
+    <fab-if when="$mensagem_colega = 4">
       <agent
         id="narrador6"
-        text=" 『Do lado oposto você reconhece o gerente do seu setor, você se pergunta o que levou a pessoa que tanto se orgulhava do seu carro se luxo recém comprado a andar de transporte público』"
+        text=" Do lado oposto você reconhece o gerente do seu setor, você se pergunta o que levou a pessoa que tanto se orgulhava do seu carro se luxo recém comprado a andar de transporte público"
         x="0" 
         y="454" 
         color="dimgray"
@@ -71,7 +71,7 @@
       />
     </fab-if>
 
-      <fab-if when="$mensagem_colega = 5">
+    <fab-if when="$mensagem_colega = 5">
       <agent
         id="narrador7"
         text="É raro ver seu rosto sem ser tampado pelo seu celular"
@@ -83,10 +83,34 @@
       />
     </fab-if>
 
-      <fab-if when="$mensagem_colega = 6">
+    <fab-if when="$mensagem_colega = 6">
       <agent
         id="narrador8"
-        text=""
+        text="Ah, olá 『Era Yoo Sangah do RH』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+    
+  <fab-if when="$mensagem_colega = 7">
+      <agent
+        id="narrador9"
+        text="Eu tive sorte! O chefe do departamento viajou hoje"
+        x="0" 
+        y="454" 
+        color="orange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_colega = 8">
+      <agent
+        id="narrador10"
+        text="Ela aproveita o espaço vazio e senta do seu lado "
         x="0" 
         y="454" 
         color="dimgray"
@@ -94,4 +118,6 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  
   </page>
