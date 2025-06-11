@@ -265,7 +265,7 @@
 
    <fab-if when="$mensagem_colega = 21">
       <agent
-        id="Kim11"
+        id="Kim12"
         text='『E nesse gênero, eu não sou o protagonista, mas o "Leitor"』'
         x="0" 
         y="454" 
@@ -274,5 +274,31 @@
         animation="fade-in-up"
         />
     </fab-if>
+
+  <fab-if when="$mensagem_colega = 22">
+      <agent
+        id="narrador13"
+        text="Seu celular vibra e você olha a notificação"
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+ 
+  <fab-if when="$mensagem_colega = 23">
+      <agent
+        id="narrador14"
+        text="Caro leitor, a monetização começará hoje às 19H. Isso será uma ajuda para você, te desejo boa sorte. novel.txt"
+        x="0" 
+        y="454" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+  
   
   </page>
