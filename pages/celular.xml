@@ -134,7 +134,7 @@
   <fab-if when="$mensagem_celular = 10">
       <agent
         id="Kim10"
-        text="『Droga... vamos esquecer isso...』"
+        text="『Droga... vamos esquecer isso... eu não tenho boas lembranças de qualquer forma』"
         x="10" 
         y="454" 
         color="skyblue"
@@ -142,5 +142,296 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_celular = 11">
+      <agent
+        id="Kim11"
+        text="『O vazio que eu senti com o Fim, e a satisfação por presensiar a conclusão dessa história. Hoje é o dia em que o Epílogo foi lançado』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 12">
+      <agent
+        id="Kim12"
+        text="『A novel que eu li por mais de 10 anos... desde a minha adolescência até a vida adulta...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 13">
+      <agent
+        id="Kim13"
+        text="『Uma história com mais de 3000 capítulos, tendo uma média de 1 visualização』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 14">
+      <agent
+        id="Kim14"
+        text="『Em outras palavras, era uma novel dedicada a mim』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 15">
+      <agent
+        id="narrador2"
+        text="Você começou a olhar pensativo ao seu redor, de certa forma era patético que sua vida inteira se resumia a essa história. Você era patético, e você sabia disso"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 16">
+      <agent
+        id="Kim16"
+        text="『Se minha vida fosse de outro gênero...』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_celular = 17">
+      <agent
+        id="Kim17"
+        text='『Quero dizer, se o gênero da minha vida não fosse "Realismo" e sim "Fantasia"』'
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+   
+   <fab-if when="$mensagem_celular = 18">
+      <agent
+        id="Kim18"
+        text="『Eu poderia me tornar...』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+    <fab-if when="$mensagem_celular = 19">
+      <agent
+        id="Kim19"
+        text="『O Protagonista?』"
+        x="0" 
+        y="454" 
+        color="orangered"
+        font-size="24"
+        animation="pulse click-shake glow"
+        />
+    </fab-if>
+
+    <fab-if when="$mensagem_celular = 20">
+      <agent
+        id="Kim20"
+        text='『Eu não sei, mas, o que eu tenho certeza é que o gênero da minha vida é sem dúvidas o "Realismo"』'
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+   <fab-if when="$mensagem_celular = 21">
+      <agent
+        id="Kim21"
+        text='『E nesse gênero, eu não sou o protagonista, mas o "Leitor"』'
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 22">
+      <agent
+        id="narrador3"
+        text="Seu celular vibra e você olha a notificação"
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+ 
+  <fab-if when="$mensagem_celular = 23">
+      <agent
+        id="narrador4"
+        text="Caro leitor, a monetização começará hoje às 19H. Isso será uma ajuda para você, te desejo boa sorte. novel.txt"
+        x="0" 
+        y="454" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 24">
+      <agent
+        id="Kim22"
+        text="Que estranho..."
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+    <fab-if when="$mensagem_celular = 25">
+      <agent
+        id="narrador5"
+        text="As luzes se apagaram de repente"
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+    <fab-if when="$mensagem_celular = 26">
+        <agent
+          id="explosao1"
+          text="KWAAM!"
+          x="300" 
+          y="454" 
+          color="red"
+          font-size="36"
+          animation="pulse hover-shadow click-shake"
+          />
+      </fab-if>
+
+    <fab-if when="$mensagem_celular = 27">
+        <agent
+          id="freio"
+          text="SKRRRR!"
+          x="300" 
+          y="454" 
+          color="darkgray"
+          font-size="36"
+          animation="slide-right"
+          />
+      </fab-if>
+   
+  <fab-if when="$mensagem_celular = 28">
+        <agent
+          id="Crownd"
+          text="ISSO É UM ATAQUE TERRORISTA?!"
+          x="0" 
+          y="454" 
+          color="silver"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_celular = 29">
+        <agent
+          id="narrador6"
+          text="Você escuta uma risada medonha que te faz engolir seco..."
+          x="0" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+  
+  <fab-if when="$mensagem_celular = 30">
+        <agent
+          id="Dokkaebi1"
+          text="『O serviço gratuido do sistema planetário 8612 terminou』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+  
+  <fab-if when="$mensagem_celular = 31">
+        <agent
+          id="Dokkaebi2"
+          text="『O Primeiro Cenário começará agora...』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_celular = 32">
+        <agent
+          id="Kim23"
+          text="『Esse foi o instante em que o gênero da minha vida mudou』"
+          x="0" 
+          y="454" 
+          color="skyblue"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+  <fab-if when="$mensagem_celular >= 33">
+       <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+        <agent
+          id="pergunta"
+          text="Fim Primeiro Ato"
+          color="gold"
+          x="center"
+          y="center"
+          font-size="50"
+          animation="fade-in"
+        />
+        <agent
+          id="trigger_colega"
+          text="Próximo Ato"
+          x="350"
+          y="350"
+          animation="hover-grow"
+          on_click="goToPage('dokkaebi'); set(mensagem_celular, 0)"
+          font-size="20"
+        />
+        </fab-if>
   
 </page>
