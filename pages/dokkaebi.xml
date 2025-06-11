@@ -165,7 +165,7 @@
       />
     </fab-if>
  
-  <fab-if when="$mensagem_dokkaebi &gt;= 13">
+  <fab-if when="$mensagem_dokkaebi &gt;= 12">
     <agent 
          id="imagem1" 
          x="center" 
@@ -174,5 +174,53 @@
          animation="bounce-loop"
         /> 
   </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 13">
+      <agent
+        id="Kim7"
+        text="『O momento em que a ficção e a realidade se sobrepuseram perfeitamente』"
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 14">
+        <agent
+          id="Crownd1"
+          text="Isso é realidade aumentada ou algo assim?"
+          x="0" 
+          y="454" 
+          color="silver"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 15">
+        <agent
+          id="Crownd2"
+          text="Ele é muito feio..."
+          x="0" 
+          y="454" 
+          color="silver"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 16">
+      <agent
+        id="Kim8"
+        text="『Mas tem alguém que reconhece esse momento além de mim?』"
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   
-</page>
+</page8
