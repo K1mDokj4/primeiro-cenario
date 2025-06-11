@@ -14,7 +14,7 @@
         id="tws"
         text='"Quando ele apareceu, alguém murmurou: "É um Diabrete."'
         x="0" 
-        y="445" 
+        y="475" 
         color="darkgoldenrod"
         font-size="24"
         animation="fade-in-up"
@@ -26,7 +26,7 @@
         id="Kim1"
         text="『Não sei o porquê, mas de repente me lembrei dessa frase』"
         x="0" 
-        y="445" 
+        y="475" 
         color="skyblue"
         font-size="24"
         animation="fade-in-up"
@@ -38,7 +38,7 @@
         id="Kim2"
         text="『O metrô parou do nada, as luzes do vagão se apagaram』"
         x="0" 
-        y="445" 
+        y="475" 
         color="skyblue"
         font-size="24"
         animation="fade-in-up"
@@ -50,19 +50,55 @@
         id="tws"
         text='"É... sem chance, não é tão incomum um metrô parar do nada."'
         x="0" 
-        y="445" 
+        y="475" 
         color="darkgoldenrod"
         font-size="24"
         animation="fade-in-up"
       />
     </fab-if>
 
-  <fab-if when="$mensagem_dokkaebi = 2">
+  <fab-if when="$mensagem_dokkaebi = 4">
       <agent
         id="Kim3"
-        text="『Só consegui pensar no início』"
+        text="『Só consegui pensar no início de uma novel bem familiar』"
         x="0" 
-        y="445" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 5">
+      <agent
+        id="Kim4"
+        text="『Mas isso é rídiculo... não tem como ser possível』"
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 6">
+      <agent
+        id="Yoo1"
+        text="Um Diabrete...?"
+        x="0" 
+        y="475" 
+        color="orange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 7">
+      <agent
+        id="Kim5"
+        text="『Isso não é possível de nenhuma forma lógica. É ridículo, mas...』"
+        x="0" 
+        y="475" 
         color="skyblue"
         font-size="24"
         animation="fade-in-up"
