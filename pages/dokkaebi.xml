@@ -164,13 +164,13 @@
         animation="fade-in-up"
       />
     </fab-if>
-  <fab-if when="$mensagem_dokkaebi >= 12">
+  <fab-if when="$mensagem_dokkaebi >= 0">
     <agent 
          id="imagem1" 
-         x="0" 
-         y="0" 
-         image="metro2.png" 
-         animation="fade-in"
+         x="center" 
+         y="10" 
+         image="dokkaebi.png" 
+         animation="bounce-loop"
         /> 
   </fab-if>
   
