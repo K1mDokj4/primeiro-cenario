@@ -164,6 +164,7 @@
         animation="fade-in-up"
       />
     </fab-if>
+ 
   <fab-if when="$mensagem_dokkaebi &gt;= 13">
     <agent 
          id="imagem1" 
