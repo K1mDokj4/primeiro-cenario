@@ -104,4 +104,16 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 8">
+      <agent
+        id="tws2"
+        text='"Um par de pequenos chifres"'
+        x="0" 
+        y="475" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
