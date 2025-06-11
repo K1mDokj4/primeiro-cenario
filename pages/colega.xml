@@ -77,6 +77,18 @@
         text="É raro ver seu rosto sem ser tampado pelo seu celular"
         x="0" 
         y="454" 
+        color="orange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+      <fab-if when="$mensagem_colega = 6">
+      <agent
+        id="narrador8"
+        text=""
+        x="0" 
+        y="454" 
         color="dimgray"
         font-size="24"
         animation="fade-in-up"
