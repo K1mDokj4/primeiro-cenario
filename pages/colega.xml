@@ -62,7 +62,19 @@
       <fab-if when="$mensagem_colega = 4">
       <agent
         id="narrador6"
-        text=" 『Do lado oposto você reconhece o gerente do seu setor, você se pergunta o que levou a pessoa que 』"
+        text=" 『Do lado oposto você reconhece o gerente do seu setor, você se pergunta o que levou a pessoa que tanto se orgulhava do seu carro se luxo recém comprado a andar de transporte público』"
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+      <fab-if when="$mensagem_colega = 5">
+      <agent
+        id="narrador7"
+        text="É raro ver seu rosto sem ser tampado pelo seu celular"
         x="0" 
         y="454" 
         color="dimgray"
