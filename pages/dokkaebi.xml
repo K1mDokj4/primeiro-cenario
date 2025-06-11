@@ -23,11 +23,23 @@
 
   <fab-if when="$mensagem_dokkaebi = 1">
       <agent
-        id="tws"
-        text='"Quando ele apareceu, alguém murmurou: "É um Diabrete."'
+        id="Kim1"
+        text="『Não sei o porquê, mas de repente me lembrei dessa frase』"
         x="0" 
         y="445" 
-        color="darkgoldenrod"
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 2">
+      <agent
+        id="Kim2"
+        text="『Não sei o porquê, mas de repente me lembrei dessa frase』"
+        x="0" 
+        y="445" 
+        color="skyblue"
         font-size="24"
         animation="fade-in-up"
       />
