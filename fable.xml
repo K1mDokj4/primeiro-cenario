@@ -3,6 +3,7 @@
   <property name="visitante" default="Kim Dojka" />
   <property name="mensagem_middle" default="0" />
   <property name="mensagem_colega" default="0" />
+  <property name="mensagem_celular" default="0" />
   <property name="insetos" default="false" />
   
   
