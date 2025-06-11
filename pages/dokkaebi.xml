@@ -140,5 +140,17 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 11">
+      <agent
+        id="Kim6"
+        text="Sem chances... "
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   
 </page>
