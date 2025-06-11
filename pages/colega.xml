@@ -314,7 +314,7 @@
     <fab-if when="$mensagem_colega = 25">
       <agent
         id="narrador15"
-        text="Que estranho..."
+        text="As luzes se apagaram de repente"
         x="0" 
         y="454" 
         color="dimgray"
