@@ -77,7 +77,7 @@
   
 <!-- TRIGGERS -->
   
-      <fab-if when="$mensagem_middle = 5">
+      <fab-if when="$mensagem_middle >= 5">
        <agent 
          id="imagem1" 
          x="0" 
