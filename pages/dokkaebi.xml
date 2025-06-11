@@ -223,6 +223,16 @@
       />
     </fab-if>
 
-  
+  <fab-if when="$mensagem_celular = 17">
+        <agent
+          id="Dokkaebi1"
+          text="『O serviço gratuido do sistema planetário 8612 terminou』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
   
 </page>
