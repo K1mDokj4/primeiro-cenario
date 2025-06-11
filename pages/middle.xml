@@ -66,7 +66,7 @@
     <fab-if when="$mensagem_middle = 4">
       <agent
         id="kim4"
-        text="『Hoje foi o dia em que a novel de fantasia que eu leio há mais de 10 anos acabou』"
+        text="『Hoje foi o dia em que a novel de fantasia que eu leio terminou』"
         x="10" 
         y="445" 
         color="skyblue"
