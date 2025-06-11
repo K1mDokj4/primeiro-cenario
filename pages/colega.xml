@@ -50,7 +50,7 @@
     <fab-if when="$mensagem_colega = 3">
       <agent
         id="narrador5"
-        text=" Ao lado deles tem uma mãe e seu filho, ele tem uma caixa de guardar insetos e uma rede, seus joelhos parecem sujos de terra"
+        text=" Ao lado deles tem um garoto sozinho com uma caixa de guardar insetos e uma rede, seus joelhos parecem sujos de terra"
         x="0" 
         y="454" 
         color="dimgray"
@@ -98,7 +98,7 @@
   <fab-if when="$mensagem_colega = 7">
       <agent
         id="Yoo2"
-        text="Eu tive sorte! O chefe do departamento viajou hoje"
+        text="Eu tive sorte! O chefe do departamento viajou hoje, consegui ir mais cedo para casa!"
         x="0" 
         y="454" 
         color="orange"
@@ -134,7 +134,7 @@
     <fab-if when="$mensagem_colega = 10">
       <agent
         id="Yoo3"
-        text="Alguém roubou minha bicicleta... eu comecei a fazer muitas horas extras, então pensei que seria uma boa ideia"
+        text="Eu comecei a fazer muitas horas extras, então pensei que seria uma boa ideia começar a andar de bicicleta, mas alguém roubou ela hoje..."
         x="0" 
         y="454" 
         color="orange"
@@ -146,7 +146,7 @@
     <fab-if when="$mensagem_colega = 11">
       <agent
         id="narrador12"
-        text="Você e Yoo Sangah continuaram com conversas superficiais sobre o trabalho, sobre o quão divertido estava sendo aprender línguas novas"
+        text="Você e Yoo Sangah continuaram com conversas sobre o trabalho, você ouviu ela falando sobre o quão divertido estava sendo aprender línguas novas dentre outras coisas"
         x="0" 
         y="454" 
         color="dimgray"
@@ -170,7 +170,7 @@
     <fab-if when="$mensagem_colega = 13">
       <agent
         id="Kim4"
-        text="『Isso era óbvio』"
+        text="『Mas, isso era óbvio』"
         x="0" 
         y="454" 
         color="skyblue"
@@ -182,7 +182,7 @@
     <fab-if when="$mensagem_colega = 14">
       <agent
         id="Kim5"
-        text="『Eu não me esforcei, enquanto ela estava trabalhando arduamente』"
+        text="『Eu não me esforço, enquanto ela trabalha arduamente』"
         x="0" 
         y="454" 
         color="skyblue"
@@ -194,7 +194,7 @@
     <fab-if when="$mensagem_colega = 15">
       <agent
         id="Kim6"
-        text="『Eu estava lendo minhas histórias de fantasia, enquanto ela estava estudando』"
+        text="『Eu me escondia no trabalho para conseguir ler, enquanto ela gasta seu tempo livre aprendendo novos idiomas』"
         x="0" 
         y="454" 
         color="skyblue"
@@ -397,13 +397,13 @@
 
   <fab-if when="$mensagem_colega = 32">
         <agent
-          id="Dokkaebi2"
+          id="Kim14"
           text="『Esse foi o instante em que o gênero da minha vida mudou』"
           x="0" 
           y="454" 
-          color="crimson"
+          color="skyblue"
           font-size="24"
-          animation="pulse click-shake glow"
+          animation="fade-in-up"
           />
       </fab-if>
 
