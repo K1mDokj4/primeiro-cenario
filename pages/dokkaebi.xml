@@ -59,8 +59,8 @@
 
   <fab-if when="$mensagem_dokkaebi = 2">
       <agent
-        id="Kim2"
-        text="『O metrô parou do nada, as luzes do vagão se apagaram』"
+        id="Kim3"
+        text="『Só consegui pensar no início』"
         x="0" 
         y="445" 
         color="skyblue"
