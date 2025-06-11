@@ -73,7 +73,7 @@
 
     <fab-if when="$mensagem_colega = 5">
       <agent
-        id="narrador7"
+        id="Yoo1"
         text="É raro ver seu rosto sem ser tampado pelo seu celular"
         x="0" 
         y="454" 
@@ -85,7 +85,7 @@
 
     <fab-if when="$mensagem_colega = 6">
       <agent
-        id="narrador8"
+        id="Kim1"
         text="Ah, olá 『Era Yoo Sangah do RH』"
         x="0" 
         y="454" 
@@ -97,7 +97,7 @@
     
   <fab-if when="$mensagem_colega = 7">
       <agent
-        id="narrador9"
+        id="Yoo2"
         text="Eu tive sorte! O chefe do departamento viajou hoje"
         x="0" 
         y="454" 
@@ -110,7 +110,7 @@
   <fab-if when="$mensagem_colega = 8">
       <agent
         id="narrador10"
-        text="Ela aproveita o espaço vazio e senta do seu lado "
+        text="Ela aproveita o espaço vazio e senta do seu lado, seu nervosismo era evidente pelo jeito em que você segurava o celular"
         x="0" 
         y="454" 
         color="dimgray"
@@ -119,5 +119,160 @@
       />
     </fab-if>
 
+    <fab-if when="$mensagem_colega = 9">
+      <agent
+        id="Kim2"
+        text="Você sempre pega essa linha? 『Começando pelo Diretor do RH e pelo Diretor Financeiro, tenho certeza que perguntaram se ela queria uma carona』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 10">
+      <agent
+        id="Yoo3"
+        text="Alguém roubou minha bicicleta... eu comecei a fazer muitas horas extras, então pensei que seria uma boa ideia"
+        x="0" 
+        y="454" 
+        color="orange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 11">
+      <agent
+        id="narrador12"
+        text="Você e Yoo Sangah continuaram com conversas superficiais sobre o trabalho, sobre o quão divertido estava sendo aprender línguas novas"
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 12">
+      <agent
+        id="Kim3"
+        text="『Odeio admitir, mas ela é incrível... Se esse mundo fosse uma novel, o protagonista seria alguém como ela』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 13">
+      <agent
+        id="Kim4"
+        text="『Isso era óbvio』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 14">
+      <agent
+        id="Kim5"
+        text="『Eu não me esforcei, enquanto ela estava trabalhando arduamente』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 15">
+      <agent
+        id="Kim6"
+        text="『Eu estava lendo minhas histórias de fantasia, enquanto ela estava estudando』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 16">
+      <agent
+        id="Kim7"
+        text="『Se minha vida fosse de outro gênero...』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 17">
+      <agent
+        id="Kim8"
+        text='『Quero dizer, se o gênero da minha vida não fosse "Realismo" e sim "Fantasia"』'
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+   
+   <fab-if when="$mensagem_colega = 18">
+      <agent
+        id="Kim9"
+        text="『Eu poderia me tornar...』"
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 19">
+      <agent
+        id="Kim10"
+        text="『O Protagonista?』"
+        x="0" 
+        y="454" 
+        color="orangered"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+    <fab-if when="$mensagem_colega = 20">
+      <agent
+        id="Kim11"
+        text='『Eu não sei, mas, o que eu tenho certeza é que o gênero da minha vida é sem dúvidas o "Realismo"』'
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
+   <fab-if when="$mensagem_colega = 21">
+      <agent
+        id="Kim11"
+        text='『E nesse gênero, eu não sou o protagonista, mas o "Leitor"』'
+        x="0" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
   
   </page>
