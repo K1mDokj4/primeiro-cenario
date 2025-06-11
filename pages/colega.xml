@@ -62,7 +62,7 @@
     <fab-if when="$mensagem_colega = 4">
       <agent
         id="narrador6"
-        text=" Do lado oposto você reconhece o gerente do seu setor, você se pergunta o que levou a pessoa que tanto se orgulhava do seu carro se luxo recém comprado a andar de transporte público"
+        text=" Do lado oposto você reconhece o Diretor Financeiro da empresa em que trabalha, você se pergunta o motivo dele estar andando de transporte público"
         x="0" 
         y="454" 
         color="dimgray"
@@ -74,7 +74,7 @@
     <fab-if when="$mensagem_colega = 5">
       <agent
         id="Yoo1"
-        text="É raro ver seu rosto sem ser tampado pelo seu celular"
+        text="É raro ver seu rosto sem estar tampado pelo seu celular"
         x="0" 
         y="454" 
         color="orange"
@@ -146,7 +146,7 @@
     <fab-if when="$mensagem_colega = 11">
       <agent
         id="narrador12"
-        text="Você e Yoo Sangah continuaram com conversas sobre o trabalho, você ouviu ela falando sobre o quão divertido estava sendo aprender línguas novas dentre outras coisas"
+        text="Você e Yoo Sangah continuaram conversando sobre o trabalho, e você ouviu ela falando sobre o quão divertido estava sendo aprender línguas novas"
         x="0" 
         y="454" 
         color="dimgray"
@@ -158,7 +158,7 @@
     <fab-if when="$mensagem_colega = 12">
       <agent
         id="Kim3"
-        text="『Odeio admitir, mas ela é incrível... Se esse mundo fosse uma novel, o protagonista seria alguém como ela』"
+        text="『Odeio admitir, mas ela é incrível... Se esse mundo fosse uma novel, o protagonista seria alguém como ela, diferente de alguém como eu』"
         x="0" 
         y="454" 
         color="skyblue"
