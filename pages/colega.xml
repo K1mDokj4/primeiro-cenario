@@ -311,6 +311,18 @@
         />
     </fab-if>
 
+    <fab-if when="$mensagem_colega = 25">
+      <agent
+        id="narrador15"
+        text="Que estranho..."
+        x="0" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+        />
+    </fab-if>
+
   
   
   </page>
