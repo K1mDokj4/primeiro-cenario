@@ -152,5 +152,26 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 12">
+      <agent
+        id="narrador1"
+        text="Na sua frente aparece uma criatura que segue a exata definição presente na novel que você acabou de finalizar "
+        x="0" 
+        y="475" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  <fab-if when="$mensagem_dokkaebi >= 12">
+    <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+  </fab-if>
   
 </page>
