@@ -406,7 +406,33 @@
           animation="fade-in-up"
           />
       </fab-if>
-
+  <fab-if when="$mensagem_colega = 33">
+       <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+        <agent
+          id="pergunta"
+          text="Fim Primeiro Ato"
+          color="gold"
+          x="center"
+          y="center"
+          font-size="50"
+          animation="fade-in"
+        />
+        <agent
+          id="trigger_colega"
+          text="Próximo Ato"
+          x="350"
+          y="350"
+          animation="hover-grow"
+          on_click="goToPage('dokkaebi')"
+          font-size="20"
+        />
+        </fab-if>
 
 
   
