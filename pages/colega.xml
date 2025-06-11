@@ -323,15 +323,15 @@
         />
     </fab-if>
 
-    <fab-if when="$mensagem_colega = 26">
+    <fab-if when="$mensagem_colega = 0">
         <agent
           id="explosao1"
           text="KWAAM!"
-          x="0" 
+          x="300" 
           y="454" 
           color="crimson"
           font-size="36"
-          animation=""
+          animation="pulse hover-shadow click-shake"
           />
       </fab-if>
 
