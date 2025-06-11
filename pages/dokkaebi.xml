@@ -36,7 +36,31 @@
   <fab-if when="$mensagem_dokkaebi = 2">
       <agent
         id="Kim2"
-        text="『Não sei o porquê, mas de repente me lembrei dessa frase』"
+        text="『O metrô parou do nada, as luzes do vagão se apagaram』"
+        x="0" 
+        y="445" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 3">
+      <agent
+        id="tws"
+        text='"É... sem chance, não é tão incomum um metrô parar do nada."'
+        x="0" 
+        y="445" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 2">
+      <agent
+        id="Kim2"
+        text="『O metrô parou do nada, as luzes do vagão se apagaram』"
         x="0" 
         y="445" 
         color="skyblue"
