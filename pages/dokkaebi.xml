@@ -165,7 +165,7 @@
       />
     </fab-if>
  
-  <fab-if when="$mensagem_dokkaebi &gt;= 0">
+  <fab-if when="$mensagem_dokkaebi &gt;= 12">
     <agent 
          id="imagem1" 
          x="center" 
@@ -235,9 +235,9 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_dokkaebi = 17">
+  <fab-if when="$mensagem_dokkaebi = 18">
       <agent
-        id="Kim9"
+        id="Kim10"
         text="『Responsável por todas as calamidades, ao longo dos milhares capítulos daquela novel』"
         x="0" 
         y="475" 
@@ -247,10 +247,22 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_celular = 17">
+  <fab-if when="$mensagem_dokkaebi = 19">
+      <agent
+        id="Kim11"
+        text=" Mas, isso é impossível, é só..."
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 20">
         <agent
           id="Dokkaebi1"
-          text="『O serviço gratuido do sistema planetário 8612 terminou』"
+          text="『AH, testando, testando. Som, som. Que saco a atualização não funcionou...』"
           x="0" 
           y="454" 
           color="crimson"
