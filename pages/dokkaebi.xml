@@ -223,6 +223,30 @@
       />
     </fab-if>
 
+  <fab-if when="$mensagem_dokkaebi = 17">
+      <agent
+        id="Kim9"
+        text="『Sem dúvidas é um 'Diabrete'...』"
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 17">
+      <agent
+        id="Kim9"
+        text="『Responsável por todas as calamidades, ao longo dos milhares capítulos daquela novel』"
+        x="0" 
+        y="475" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
   <fab-if when="$mensagem_celular = 17">
         <agent
           id="Dokkaebi1"
