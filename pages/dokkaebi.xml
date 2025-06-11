@@ -21,7 +21,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_dokkaebi = 0">
+  <fab-if when="$mensagem_dokkaebi = 1">
       <agent
         id="tws"
         text='"Quando ele apareceu, alguém murmurou: "É um Diabrete."'
