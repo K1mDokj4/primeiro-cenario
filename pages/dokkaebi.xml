@@ -165,12 +165,12 @@
       />
     </fab-if>
  
-  <fab-if when="$mensagem_dokkaebi &gt;= 12">
+  <fab-if when="$mensagem_dokkaebi &gt;= 0">
     <agent 
          id="imagem1" 
          x="center" 
-         y="130" 
-         image="dokkaebi.png" 
+         y="55" 
+         image="dokkaebi_2_.png" 
          animation="bounce-loop"
         /> 
   </fab-if>
