@@ -1,3 +1,35 @@
-<page id="dokkaebi" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página dokkaebi" color="white" font-size="24" />
+<page id="dokkaebi" bg_image="metroballontext_800x600_2_.png">
+  <agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
+      animation="hover-grow"
+    />
+  <fab-if when="$mensagem_dokkaebi = 0">
+      <agent
+        id="tws"
+        text='"Quando ele apareceu, alguém murmurou: "É um Diabrete."'
+        x="0" 
+        y="445" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 0">
+      <agent
+        id="tws"
+        text='"Quando ele apareceu, alguém murmurou: "É um Diabrete."'
+        x="0" 
+        y="445" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
