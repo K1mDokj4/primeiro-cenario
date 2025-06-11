@@ -167,8 +167,8 @@
   <fab-if when="$mensagem_dokkaebi >= 0">
     <agent 
          id="imagem1" 
-         x="center" 
-         y="10" 
+         x="" 
+         y="" 
          image="dokkaebi.png" 
          animation="bounce-loop"
         /> 
