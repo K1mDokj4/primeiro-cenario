@@ -144,7 +144,7 @@
   <fab-if when="$mensagem_dokkaebi = 11">
       <agent
         id="Kim6"
-        text="Sem chances... "
+        text="Sem chances... Está brincando comigo. Isso é... "
         x="0" 
         y="475" 
         color="skyblue"
