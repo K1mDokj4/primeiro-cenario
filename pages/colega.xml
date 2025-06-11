@@ -329,7 +329,7 @@
           text="KWAAM!"
           x="300" 
           y="454" 
-          color="crimson"
+          color="red"
           font-size="36"
           animation="pulse hover-shadow click-shake"
           />
@@ -355,9 +355,59 @@
           y="454" 
           color="silver"
           font-size="24"
-          animation="fade-in"
+          animation="fade-in-up"
           />
       </fab-if>
+
+  <fab-if when="$mensagem_colega = 29">
+        <agent
+          id="narrador16"
+          text="Você escuta uma risada medonha que te faz engolir seco..."
+          x="0" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+  
+  <fab-if when="$mensagem_colega = 30">
+        <agent
+          id="Dokkaebi1"
+          text="『O serviço gratuido do sistema planetário 8612 terminou』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+  
+  <fab-if when="$mensagem_colega = 31">
+        <agent
+          id="Dokkaebi2"
+          text="『O Primeiro Cenário começará agora...』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_colega = 32">
+        <agent
+          id="Dokkaebi2"
+          text="『Esse foi o instante em que o gênero da minha vida mudou』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+
 
   
   
