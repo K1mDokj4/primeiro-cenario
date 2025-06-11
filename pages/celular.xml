@@ -11,13 +11,133 @@
     animation="hover-grow"
   />
 
-  <fab-if when="$mensagem_celular = 1">
+  <fab-if when="$mensagem_celular = 0">
       <agent
-        id="narrador2"
+        id="narrador1"
         text="No fim você tomou a decisão de sempre, se esconder atrás da tela do seu celular"
         x="10" 
         y="454" 
         color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 1">
+      <agent
+        id="Kim1"
+        text="『Por mais que esse seja meu hobbie, é vergonhoso falar sobre ele para os outros』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 2">
+      <agent
+        id="Kim2"
+        text="『Hoje é um dia diferente do habitual, a novel que eu leio a mais de 10 anos terminou hoje』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 3">
+      <agent
+        id="Kim3"
+        text='『Você pode se perguntar: "O que tem de tão importante no fim de uma novel?"』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 4">
+      <agent
+        id="Kim4"
+        text="『Mas essa novel significa muito para mim...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 5">
+      <agent
+        id="Kim5"
+        text="『Eu leio ela desde o meu 9° ano do fundamental』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 6">
+      <agent
+        id="Kim6"
+        text="『Mesmo quando eu apanhava na escola』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 7">
+      <agent
+        id="Kim7"
+        text="『Mesmo quando eu não consegui passar no vestibular』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 8">
+      <agent
+        id="Kim8"
+        text="『Mesmo quando eu dei azar e precisei prestar serviço militar obrigatório』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 9">
+      <agent
+        id="Kim9"
+        text="『E quando eu fui contratado como terceirizado em uma subsidiária』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 10">
+      <agent
+        id="Kim10"
+        text="『Droga... vamos esquecer isso...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
         font-size="24"
         animation="fade-in-up"
       />
