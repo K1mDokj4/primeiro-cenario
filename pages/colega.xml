@@ -247,7 +247,7 @@
         y="454" 
         color="orangered"
         font-size="24"
-        animation="fade-in-up"
+        animation="pulse click-shake glow"
         />
     </fab-if>
 
@@ -322,6 +322,18 @@
         animation="fade-in-up"
         />
     </fab-if>
+
+    <fab-if when="$mensagem_colega = 26">
+        <agent
+          id="explosao1"
+          text="KWAAM!"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="36"
+          animation=""
+          />
+      </fab-if>
 
   
   
