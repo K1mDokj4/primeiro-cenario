@@ -260,7 +260,7 @@
     </fab-if>
 
   <fab-if 
-    when="$mensagem_celular = 20">
+    when="$mensagem_dokkaebi = 20">
         <agent
           id="Dokkaebi1"
           text="『AH, testando, testando. Som, som. Que saco a atualização não funcionou...』"
@@ -271,5 +271,29 @@
           animation="pulse click-shake glow"
           />
       </fab-if>
-  
+
+  <fab-if 
+    when="$mensagem_dokkaebi = 21">
+        <agent
+          id="Dokkaebi2"
+          text="『TODO MUNDO TÁ ME ESCUTANDO??』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 22">
+        <agent
+          id="Crownd3"
+          text="Logo começou uma comoção pública na frente do Diabrete, pessoas gritando, crianças chorando."
+          x="0" 
+          y="454" 
+          color="silver"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
 </page>
