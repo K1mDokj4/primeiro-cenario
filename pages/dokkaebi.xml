@@ -1,14 +1,5 @@
 <page id="dokkaebi" bg_image="metroballontext_800x600_2_.png">
-  <agent
-      id="narrativa"
-      text="clique aqui para avançar"
-      color="darkgray"
-      x="615" 
-      y="546"
-      font-size="15"
-      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
-      animation="hover-grow"
-    />
+  
   <fab-if when="$mensagem_dokkaebi = 0">
       <agent
         id="tws"
@@ -346,4 +337,16 @@
           animation="fade-in-up"
           />
       </fab-if>
+
+  <agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
+      animation="hover-grow"
+    />
+  
 </page>
