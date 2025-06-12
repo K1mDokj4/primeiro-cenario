@@ -326,12 +326,24 @@
     when="$mensagem_dokkaebi = 25">
         <agent
           id="Dokkaebi4"
-          text="『Eu mandei ficarem quietos, qui-e-tos』"
+          text="『Eu mandei ficarem quietos, QUIETOS!』"
           x="0" 
           y="454" 
           color="crimson"
           font-size="24"
           animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 26">
+        <agent
+          id="narrador4"
+          text="Algumas"
+          x="0" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
           />
       </fab-if>
 </page>
