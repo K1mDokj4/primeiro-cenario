@@ -1,15 +1,5 @@
 <page id="celular" bg_image="metroballontext_800x600_2_.png"> 
   
-  <agent
-    id="narrativa"
-    text="clique aqui para avançar"
-    color="darkgray"
-    x="615" 
-    y="546"
-    font-size="15"
-    on_click="set(mensagem_celular, $mensagem_celular+1)"
-    animation="hover-grow"
-  />
 
   <fab-if when="$mensagem_celular = 0">
       <agent
@@ -433,5 +423,16 @@
           font-size="20"
         />
         </fab-if>
-  
+
+    <agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_celular, $mensagem_celular+1)"
+      animation="hover-grow"
+  />
+
 </page>
