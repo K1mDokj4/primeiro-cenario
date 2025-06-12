@@ -2,9 +2,9 @@
   <agent 
     id="a" 
     x="100" 
-    y="70" 
+    y="80" 
     text="Covarde" 
-    color="darkred" 
+    color="darkgoldenrod" 
     font-size="62" 
     animation="slide-up"
     />
@@ -68,7 +68,7 @@
     x="110"
     y="410"
     text="↳ Status: Espectador até o fim."
-    color="white"
+    color="darkgoldenrod"
     font-size="24"
     animation="slide-up"
     />
