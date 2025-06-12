@@ -1,10 +1,10 @@
 <page id="final-bigbrother" bg_image="vag_o.png">
   <agent 
     id="brother" 
-    x="100" 
+    x="110" 
     y="80" 
     text="Irmão mais velho" 
-    color="darkred" 
+    color="darkgoldenrod" 
     font-size="62" 
     animation="slide-up"
     />
