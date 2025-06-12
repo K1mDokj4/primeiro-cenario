@@ -496,10 +496,10 @@
         <agent
           id="trigger_colega"
           text="Próximo Ato"
-          x="350"
-          y="350"
+          x="630"
+          y="300"
           animation="hover-grow"
-          on_click="goToPage('dokkaebi'); set(mensagem_colega, 0)"
+          on_click="goToPage('dokkaebi'); set(mensagem_dokkaebi, 0)"
           font-size="20"
         />
         </fab-if>
