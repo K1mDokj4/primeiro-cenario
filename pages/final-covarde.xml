@@ -1,15 +1,15 @@
 <page id="final-covarde" bg_image="vag_o.png">
   <agent 
-    id="titulo" 
+    id="a" 
     x="100" 
-    y="50" 
+    y="70" 
     text="Covarde" 
     color="darkred" 
     font-size="62" 
     animation="slide-up"
     />
   <agent
-    id="cansei1"
+    id="a1"
     x="110"
     y="170"
     text="Você hesitou"
@@ -18,7 +18,7 @@
     animation="slide-up"
     />
   <agent
-    id="cansei2"
+    id="a2"
     x="110"
     y="210"
     text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
@@ -27,7 +27,7 @@
     animation="slide-up"
     />
   <agent
-    id="cansei3"
+    id="a3"
     x="110"
     y="250"
     text="Enquanto os outros gritavam, lutavam, morriam…, você parou"
@@ -36,7 +36,7 @@
     animation="slide-up"
     />
   <agent
-    id="cansei4"
+    id="a4"
     x="110"
     y="290"
     text="E no silêncio que se seguiu, o mundo seguiu sem você"
@@ -46,7 +46,7 @@
     />
 
   <agent
-    id="cansei5"
+    id="a5"
     x="110"
     y="330"
     text="As constelações não o julgaram."
@@ -55,10 +55,19 @@
     animation="slide-up"
     />
   <agent
-    id="cansei6"
+    id="a6"
     x="110"
     y="370"
     text="Mas também não o notaram."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="a7"
+    x="110"
+    y="410"
+    text="↳ Status: Espectador até o fim."
     color="white"
     font-size="24"
     animation="slide-up"
