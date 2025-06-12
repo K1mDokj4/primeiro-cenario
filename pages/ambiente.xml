@@ -6,7 +6,161 @@
     x="615" 
     y="546"
     font-size="15"
-    on_click="set(mensagem_colega, $mensagem_colega+1)"
+    on_click="set(mensagem_ambiente, $mensagem_ambiente+1)"
     animation="hover-grow"
   />
+
+  <fab-if when="$mensagem_ambiente = 0">
+      <agent
+        id="narrador1"
+        text="Por mais que você tenha informações sobre as coisas que estão acontecendo agora, você continua sendo somente uma pessoa normal. Seu corpo se tremeu inteiro e você olhou ao redor"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 1">
+      <agent
+        id="narrador2"
+        text="As pessoas perto de você haviam mudado completamente, de repente todas elas estavam brigando pelas suas vidas, avaçando em alvos mais fracos do que si"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 2">
+      <agent
+        id="narrador3"
+        text="O que você estava vendo era uma cena desagradável, um grupo havia jogado uma senhora no chão e estavam chutando ela"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 3">
+      <agent
+        id="narrador4"
+        text='Um grupo de adolescentes tentavam matar uns aos outros com um sorriso sádico no rosto'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 4">
+      <agent
+        id="narrador5"
+      text="E um homem de terno parecia ameaçar uma mulher para fazer 'algo' para ele em troca de ficar viva"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 5">
+      <agent
+        id="narrador6"
+      text="Há muitas teorias sobre maldade humana, tem que pense que fomos corrompidos, ou que nascemos assim. Você não sabia ao certo a resposta, nunca sequer havia pensado nisso"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 6">
+      <agent
+        id="narrador7"
+      text="Mas hoje você viu a podridão humana na sua forma mais explícita, não importa os meios desde que seja você a pessoa em pé no final. Mas isso era uma questão hipócrita da sua parte"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 7">
+      <agent
+        id="narrador8"
+      text="Afinal de contas, em meio ao desespero, você procurava também um alvo mais fraco que você. Seu medo de morrer fez com que todo o conteudo da novel desaparecesse da sua cabeça"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 7">
+      <agent
+        id="narrador9"
+      text="Você só queria decidir logo quem seria a pessoa que você iria matar, e era nojento o quão calmo você parecia procurando a vítima"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente >= 0">
+       <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+        <agent
+          id="pergunta"
+          text="Você precisa decidir quem irá matar:"
+          color="gold"
+          x="center"
+          y="300"
+          font-size="25"
+          animation="fade-in"
+        />
+        <agent
+          id="trigger_senhora"
+          text="Uma senhora indefesa no chão"
+          x="90"
+          y="390"
+          animation="hover-grow"
+          on_click="set(mensagem_middle, 0); goToPage('colega')"
+          font-size="20"
+        />
+        <agent
+          id="trigger_homem"
+          text="Um homem de terno qualquer"
+          y="390"
+          x="475"
+          animation="hover-grow"
+          on_click="set(mensagem_middle, 0); goToPage('celular')" 
+          font-size="20"
+        />
+        <agent
+          id="trigger_criança"
+          text="Um homem de terno qualquer"
+          y="390"
+          x="475"
+          animation="hover-grow"
+          on_click="set(mensagem_middle, 0); goToPage('celular')" 
+          font-size="20"
+        />
+    </fab-if>
 </page>
