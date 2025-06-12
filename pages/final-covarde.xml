@@ -72,4 +72,14 @@
     font-size="24"
     animation="slide-up"
     />
+  <agent
+    id="a8"
+    text="Voltar para Estação"
+    color="gold"
+    animation="hover-grow"
+    x="500"
+    y="470"
+    font-size="28"
+    on_click="goToPage('middle')"
+  />
 </page>
