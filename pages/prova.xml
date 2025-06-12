@@ -126,7 +126,7 @@
           />
       </fab-if>
 
-  <fab-if when="$mensagem_middle >= 0">
+  <fab-if when="$mensagem_middle >= 9">
        <agent 
          id="imagem1" 
          x="0" 
