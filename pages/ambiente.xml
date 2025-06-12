@@ -61,7 +61,7 @@
   <fab-if when="$mensagem_ambiente = 4">
       <agent
         id="narrador5"
-      text="E um homem de terno parecia ameaçar uma mulher para fazer 'algo' para ele em troca de ficar viva"
+      text="E um homem de terno parecia ameaçar uma mulher para fazer 'algo' para ele em troca de ficar viva."
         x="10" 
         y="454" 
         color="dimgray"
@@ -73,7 +73,7 @@
   <fab-if when="$mensagem_ambiente = 5">
       <agent
         id="narrador6"
-      text="Há muitas teorias sobre maldade humana, tem que pense que fomos corrompidos, ou que nascemos assim. Você não sabia ao certo a resposta, nunca sequer havia pensado nisso"
+      text="Sentado e sem reação, tinha uma criança com os olhos focados no corpo caído na sua frente, o garoto estava com o rosto sujo de sangue, mas parecia não perceber ainda"
         x="10" 
         y="454" 
         color="dimgray"
@@ -85,7 +85,7 @@
   <fab-if when="$mensagem_ambiente = 6">
       <agent
         id="narrador7"
-      text="Mas hoje você viu a podridão humana na sua forma mais explícita, não importa os meios desde que seja você a pessoa em pé no final. Mas isso era uma questão hipócrita da sua parte"
+      text="Há muitas teorias sobre maldade humana, tem que pense que fomos corrompidos, ou que nascemos assim. Você não sabia ao certo a resposta, nunca sequer havia pensado nisso"
         x="10" 
         y="454" 
         color="dimgray"
@@ -97,6 +97,18 @@
   <fab-if when="$mensagem_ambiente = 7">
       <agent
         id="narrador8"
+      text="Mas hoje você viu a podridão humana na sua forma mais explícita, não importa os meios desde que seja você a pessoa em pé no final. Mas isso era uma questão hipócrita da sua parte"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_ambiente = 8">
+      <agent
+        id="narrador9"
       text="Afinal de contas, em meio ao desespero, você procurava também um alvo mais fraco que você. Seu medo de morrer fez com que todo o conteudo da novel desaparecesse da sua cabeça"
         x="10" 
         y="454" 
@@ -106,9 +118,9 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_ambiente = 7">
+  <fab-if when="$mensagem_ambiente = 9">
       <agent
-        id="narrador9"
+        id="narrador10"
       text="Você só queria decidir logo quem seria a pessoa que você iria matar, e era nojento o quão calmo você parecia procurando a vítima"
         x="10" 
         y="454" 
@@ -118,7 +130,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_ambiente >= 0">
+  <fab-if when="$mensagem_ambiente >= 10">
        <agent 
          id="imagem1" 
          x="0" 
@@ -137,30 +149,23 @@
         />
         <agent
           id="trigger_senhora"
-          text="Uma senhora indefesa no chão"
-          x="90"
+          text="Uma senhora indefesa no chão, gritando para que parem"
+          x="125"
           y="390"
-          animation="hover-grow"
-          on_click="set(mensagem_middle, 0); goToPage('colega')"
-          font-size="20"
+          animation="hover-grow pulse click-shake"
+          on_click="set(mensagem_ambiente, 0); goToPage('ending')"
+          font-size="24"
+          color="crimson"
         />
         <agent
-          id="trigger_homem"
-          text="Um homem de terno qualquer"
-          y="390"
-          x="475"
-          animation="hover-grow"
-          on_click="set(mensagem_middle, 0); goToPage('celular')" 
-          font-size="20"
-        />
-        <agent
-          id="trigger_criança"
-          text="Um homem de terno qualquer"
-          y="390"
-          x="475"
-          animation="hover-grow"
-          on_click="set(mensagem_middle, 0); goToPage('celular')" 
-          font-size="20"
+          id="trigger_crianca"
+          text="O garoto imóvel, apavorado pelo corpo na sua frente"
+          y="460"
+          x="145"
+          animation="hover-grow pulse click-shake"
+          on_click="set(mensagem_ambiente, 0); goToPage('ending')" 
+          font-size="24"
+          color="crimson"
         />
     </fab-if>
 </page>
