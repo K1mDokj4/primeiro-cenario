@@ -1,5 +1,14 @@
 <page id="dokkaebi" bg_image="metroballontext_800x600_2_.png">
-  
+  <agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
+      animation="hover-grow"
+    />
   <fab-if when="$mensagem_dokkaebi = 0">
       <agent
         id="tws"
@@ -38,7 +47,7 @@
 
   <fab-if when="$mensagem_dokkaebi = 3">
       <agent
-        id="tws"
+        id="tws1"
         text='"É... sem chance, não é tão incomum um metrô parar do nada."'
         x="0" 
         y="475" 
@@ -492,17 +501,6 @@
           font-size="20"
         />
         </fab-if>
-
-   <agent
-      id="narrativa"
-      text="clique aqui para avançar"
-      color="darkgray"
-      x="615" 
-      y="546"
-      font-size="15"
-      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
-      animation="hover-grow"
-    />
 
   
 </page>
