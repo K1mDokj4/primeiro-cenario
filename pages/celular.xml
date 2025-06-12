@@ -396,7 +396,7 @@
           animation="fade-in-up"
           />
       </fab-if>
-  <fab-if when="$mensagem_celular &gt; 33">
+  <fab-if when="$mensagem_celular &gt; 32">
        <agent 
          id="imagem1" 
          x="0" 
@@ -424,7 +424,8 @@
         />
         </fab-if>
 
-    <agent
+
+<agent
       id="narrativa"
       text="clique aqui para avançar"
       color="darkgray"
