@@ -6,6 +6,7 @@
     x="300"
     y="400" 
     font-size="52"
+    animation="slide-up"
   />
   <agent
     id="next_page_text"
