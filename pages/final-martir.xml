@@ -1,7 +1,7 @@
 <page id="final-martir" bg_image="vag_o.png">
   <agent 
     id="martir" 
-    x="100" 
+    x="110" 
     y="80" 
     text="Falso Mártir" 
     color="darkgoldenrod" 
