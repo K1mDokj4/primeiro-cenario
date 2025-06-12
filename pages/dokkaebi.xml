@@ -312,8 +312,21 @@
   <fab-if 
     when="$mensagem_dokkaebi = 24">
         <agent
-          id="Dokkaebi2"
-          text="『』"
+          id="Dokkaebi3"
+          text="『Que bando de idiotas barulhentos...』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+   <fab-if 
+    when="$mensagem_dokkaebi = 25">
+        <agent
+          id="Dokkaebi4"
+          text="『Eu mandei ficarem quietos, qui-e-tos』"
           x="0" 
           y="454" 
           color="crimson"
