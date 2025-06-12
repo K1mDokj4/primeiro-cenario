@@ -453,7 +453,17 @@
           />
       </fab-if>
 
-  
+  <fab-if when="$mensagem_dokkaebi = 36">
+      <agent
+        id="Kim14"
+        text="『Na sua frente apreceu uma janela azul, bem parecida com a interface de um jogo. Seus olhos se arregalaram, todos os passos estavam sendo repetidos, era como se você conseguisse ler o futuro』"
+        x="0" 
+        y="450" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   
   <agent
       id="narrativa"
