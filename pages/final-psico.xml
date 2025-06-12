@@ -1,3 +1,85 @@
 <page id="final-psico" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final-psico" color="white" font-size="24" />
+  <agent 
+    id="psico" 
+    x="100" 
+    y="80" 
+    text="Psicopata" 
+    color="darkgoldenrod" 
+    font-size="62" 
+    animation="slide-up"
+    />
+  <agent
+    id="psico-1"
+    x="100"
+    y="170"
+    text="Você viu a rigidez no corpo da criança, o medo que a prendia ao chão."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="psico-2"
+    x="110"
+    y="210"
+    text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="psico-3"
+    x="110"
+    y="250"
+    text="Enquanto os outros gritavam, lutavam, morriam…, você parou"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="psico-4"
+    x="110"
+    y="290"
+    text="E no silêncio que se seguiu, o mundo seguiu sem você"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+
+  <agent
+    id="psico-5"
+    x="110"
+    y="330"
+    text="As constelações não o julgaram."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="psico-6"
+    x="110"
+    y="370"
+    text="Mas também não o notaram."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="psico-7"
+    x="110"
+    y="410"
+    text="↳ Status: Espectador até o fim."
+    color="darkgoldenrod"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="psico-8"
+    text="Voltar para Estação"
+    color="gold"
+    animation="fade-in-up"
+    x="500"
+    y="470"
+    font-size="28"
+    on_click="reset()"
+  />
 </page>
