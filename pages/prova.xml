@@ -20,11 +20,38 @@
           text="De repente a criatura sumiu deixando todos no vagão olhando assustados para os arredores"
           x="0" 
           y="454" 
-          color="crimson"
+          color="dimgray"
           font-size="24"
-          animation="pulse click-shake glow"
+          animation="fade-in-up"
           />
       </fab-if>
+ 
+  <fab-if 
+    when="$mensagem_prova = 2">
+        <agent
+          id="tws1"
+          text='"O diabrete com seus chifres estendidos"'
+          x="0" 
+          y="454" 
+          color="darkgoldenrod"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_prova = 3">
+        <agent
+          id="tws2"
+          text='"Corpos espalhados pelo metrô como se fossem lixo"'
+          x="0" 
+          y="454" 
+          color="darkgoldenrod"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
 
   
 <agent
