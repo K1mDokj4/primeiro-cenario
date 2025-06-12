@@ -1,79 +1,79 @@
 <page id="final-cumplice" bg_image="vag_o.png">
   <agent 
-    id="brother" 
+    id="cumplices" 
     x="100" 
     y="80" 
-    text="Irmão mais velho" 
-    color="darkred" 
+    text="Cumplices" 
+    color="darkgoldenrod" 
     font-size="62" 
     animation="slide-up"
     />
   <agent
-    id="brother-1"
+    id="cumplices-1"
     x="110"
     y="170"
-    text="Você podia salvá-la."
+    text="Você pega a caixa de insetos e encara a criança imóvel"
     color="white"
     font-size="24"
     animation="slide-up"
     />
   <agent
-    id="brother-2"
+    id="cumplices-2"
     x="110"
     y="210"
-    text="E quis. Todos queriam."
+    text="A criança parecia entender o que você faria"
     color="white"
     font-size="24"
     animation="slide-up"
     />
   <agent
-    id="brother-3"
+    id="cumplices-3"
     x="110"
     y="250"
-    text="Mas escolheu o garoto — aquele que não significava nada."
+    text="Yoo Sangah te olha chorando, gritando para que pare"
     color="white"
     font-size="24"
     animation="slide-up"
     />
   <agent
-    id="brother-4"
+    id="cumplices-4"
     x="110"
     y="290"
-    text="Porque ele tornou isso possível."
+    text="Ela preferia ter morrido, mas era você quem escolhia."
     color="white"
     font-size="24"
     animation="slide-up"
     />
 
   <agent
-    id="brother-5"
+    id="cumplices-5"
     x="110"
     y="330"
-    text="As constelações não demonstraram pesar."
+    text="As constelações adoraram o espetáculo."
     color="white"
     font-size="24"
     animation="slide-up"
     />
   <agent
-    id="brother-6"
+    id="cumplices-6"
     x="110"
     y="370"
-    text="Uma constelação em particular gravou seu nome com rancor."
+    text="Especialmente o final."
     color="white"
     font-size="24"
     animation="slide-up"
     />
   <agent
-    id="brother-7"
+    id="cumplices-7"
     x="110"
     y="410"
-    text="↳ Status: Você não foi luz para ela. Foi sombra que protegeu ele."
+    text="↳ Status: Você a forçou a viver. E matou por isso."
     color="darkgoldenrod"
     font-size="24"
     animation="slide-up"
     />
   <agent
-    id="brother-8"
+    id="cumplices-8"
     text="Voltar para Estação"
     color="gold"
     animation="fade-in-up"
