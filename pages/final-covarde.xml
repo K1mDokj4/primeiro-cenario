@@ -1,6 +1,6 @@
 <page id="final-covarde" bg_image="vag_o.png">
   <agent 
-    id="a" 
+    id="covarde" 
     x="100" 
     y="80" 
     text="Covarde" 
@@ -9,7 +9,7 @@
     animation="slide-up"
     />
   <agent
-    id="a1"
+    id="covarde-1"
     x="110"
     y="170"
     text="Você hesitou"
@@ -18,7 +18,7 @@
     animation="slide-up"
     />
   <agent
-    id="a2"
+    id="covarde-2"
     x="110"
     y="210"
     text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
@@ -27,7 +27,7 @@
     animation="slide-up"
     />
   <agent
-    id="a3"
+    id="covarde-3"
     x="110"
     y="250"
     text="Enquanto os outros gritavam, lutavam, morriam…, você parou"
@@ -36,7 +36,7 @@
     animation="slide-up"
     />
   <agent
-    id="a4"
+    id="covarde-4"
     x="110"
     y="290"
     text="E no silêncio que se seguiu, o mundo seguiu sem você"
@@ -46,7 +46,7 @@
     />
 
   <agent
-    id="a5"
+    id="covarde-5"
     x="110"
     y="330"
     text="As constelações não o julgaram."
@@ -55,7 +55,7 @@
     animation="slide-up"
     />
   <agent
-    id="a6"
+    id="covarde-6"
     x="110"
     y="370"
     text="Mas também não o notaram."
@@ -64,7 +64,7 @@
     animation="slide-up"
     />
   <agent
-    id="a7"
+    id="covarde-7"
     x="110"
     y="410"
     text="↳ Status: Espectador até o fim."
@@ -73,7 +73,7 @@
     animation="slide-up"
     />
   <agent
-    id="a8"
+    id="covarde-8"
     text="Voltar para Estação"
     color="gold"
     animation="fade-in-up"
