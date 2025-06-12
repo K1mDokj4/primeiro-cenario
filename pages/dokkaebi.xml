@@ -259,7 +259,8 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_celular = 20">
+  <fab-if 
+    when="$mensagem_celular = 20">
         <agent
           id="Dokkaebi1"
           text="『AH, testando, testando. Som, som. Que saco a atualização não funcionou...』"
