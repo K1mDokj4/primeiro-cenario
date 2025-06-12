@@ -140,7 +140,7 @@
         /> 
         <agent
           id="pergunta"
-          text="Você precisa decidir quem irá matar:"
+          text="Você precisa decidir quem irá matar e precisa ser agora:"
           color="gold"
           x="center"
           y="300"
