@@ -5,6 +5,7 @@
   <property name="mensagem_colega" default="0" />
   <property name="mensagem_celular" default="0" />
   <property name="mensagem_dokkaebi" default="0" />
+  <property name="mensagem_prova" default="0" />
   <property name="insetos" default="false" />
   
   
