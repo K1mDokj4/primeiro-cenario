@@ -153,7 +153,7 @@
           x="125"
           y="390"
           animation="hover-grow pulse click-shake"
-          on_click="set(mensagem_ambiente, 0); goToPage('ending')"
+          on_click="set(mensagem_ambiente, 0); goToPage('final-covarde')"
           font-size="24"
           color="crimson"
         />
@@ -163,7 +163,7 @@
           y="460"
           x="145"
           animation="hover-grow pulse click-shake"
-          on_click="set(mensagem_ambiente, 0); goToPage('ending')" 
+          on_click="set(mensagem_ambiente, 0); goToPage('final-psico')" 
           font-size="24"
           color="crimson"
         />
