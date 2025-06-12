@@ -342,7 +342,33 @@
     when="$mensagem_dokkaebi = 27">
         <agent
           id="Dokkaebi5"
-          text="『Eu n』"
+          text="『Não é a cena de um filme』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_dokkaebi = 28">
+        <agent
+          id="Dokkaebi6"
+          text="『Nem um sonho...』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_dokkaebi = 29">
+        <agent
+          id="Dokkaebi7"
+          text="『Muito menos uma história』"
           x="0" 
           y="454" 
           color="crimson"
@@ -351,8 +377,18 @@
           />
       </fab-if>
   
-  
-  
+  <fab-if 
+    when="$mensagem_dokkaebi = 30">
+        <agent
+          id="Dokkaebi8"
+          text="『Nem mesmo a 'Realidade' como voceês conhecem, ENTENDERAM?!』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
   
   
   
