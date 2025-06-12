@@ -110,7 +110,7 @@
 
   <fab-if when="$mensagem_dokkaebi = 9">
       <agent
-        id="tws2"
+        id="tws1"
         text='"Envolta em uma porção de feno, a estranha e peluda criatura estava flutuando no ar"'
         x="0" 
         y="475" 
@@ -122,7 +122,7 @@
 
   <fab-if when="$mensagem_dokkaebi = 10">
       <agent
-        id="tws2"
+        id="tws3"
         text='"Ela era grotesca demais para ser uma Fada, muito nefasta para um Anjo e muito inofenciva para ser o Diabo"'
         x="0" 
         y="475" 
@@ -405,7 +405,7 @@
   <fab-if when="$mensagem_dokkaebi = 32">
       <agent
         id="Kim13"
-        text="『Desapareceu na hora em que o vagão se cobriu de sangue』"
+        text="『... desapareceu na hora em que o vagão se cobriu de sangue』"
         x="0" 
         y="475" 
         color="skyblue"
@@ -465,18 +465,7 @@
       />
     </fab-if>
 
-  <agent
-      id="narrativa"
-      text="clique aqui para avançar"
-      color="darkgray"
-      x="615" 
-      y="546"
-      font-size="15"
-      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
-      animation="hover-grow"
-    />
-
-  <fab-if when="$mensagem_colega &gt;= 0">
+  <fab-if when="$mensagem_dokkaebi &gt; 36">
        <agent 
          id="imagem2" 
          x="0" 
@@ -488,9 +477,9 @@
       <agent 
          id="imagem3" 
          x="0" 
-         y="center" 
+         y="30" 
          image="sistema.png" 
-         animation="fade-in"
+         animation="float"
         /> 
   
         <agent
@@ -499,9 +488,21 @@
           x="630"
           y="300"
           animation="hover-grow"
-          on_click="goToPage('dokkaebi'); set(mensagem_dokkaebi, 0)"
+          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0)"
           font-size="20"
         />
         </fab-if>
+
+   <agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_dokkaebi, $mensagem_dokkaebi+1)"
+      animation="hover-grow"
+    />
+
   
 </page>
