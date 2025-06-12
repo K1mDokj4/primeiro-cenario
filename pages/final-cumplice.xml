@@ -1,3 +1,85 @@
-<page id="final-cumplice" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final-cumplice" color="white" font-size="24" />
+<page id="final-cumplice" bg_image="vag_o.png">
+  <agent 
+    id="brother" 
+    x="100" 
+    y="80" 
+    text="Irmão mais velho" 
+    color="darkred" 
+    font-size="62" 
+    animation="slide-up"
+    />
+  <agent
+    id="brother-1"
+    x="110"
+    y="170"
+    text="Você podia salvá-la."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="brother-2"
+    x="110"
+    y="210"
+    text="E quis. Todos queriam."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="brother-3"
+    x="110"
+    y="250"
+    text="Mas escolheu o garoto — aquele que não significava nada."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="brother-4"
+    x="110"
+    y="290"
+    text="Porque ele tornou isso possível."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+
+  <agent
+    id="brother-5"
+    x="110"
+    y="330"
+    text="As constelações não demonstraram pesar."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="brother-6"
+    x="110"
+    y="370"
+    text="Uma constelação em particular gravou seu nome com rancor."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="brother-7"
+    x="110"
+    y="410"
+    text="↳ Status: Você não foi luz para ela. Foi sombra que protegeu ele."
+    color="darkgoldenrod"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="brother-8"
+    text="Voltar para Estação"
+    color="gold"
+    animation="fade-in-up"
+    x="500"
+    y="470"
+    font-size="28"
+    on_click="reset()"
+  />
 </page>
