@@ -329,7 +329,7 @@
   <fab-if when="$mensagem_dokkaebi = 26">
         <agent
           id="narrador4"
-          text="Algumas"
+          text="Algumas pessoas caíram com seus corpos duros e sem vida no chão. A criatura havia explodido suas cabeças com um estalar de dedos"
           x="0" 
           y="454" 
           color="dimgray"
@@ -338,6 +338,26 @@
           />
       </fab-if>
 
+  <fab-if 
+    when="$mensagem_dokkaebi = 27">
+        <agent
+          id="Dokkaebi5"
+          text="『Eu n』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+  
+  
+  
+  
+  
+  
+  
+  
   <agent
       id="narrativa"
       text="clique aqui para avançar"
