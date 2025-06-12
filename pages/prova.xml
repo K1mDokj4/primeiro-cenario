@@ -126,7 +126,7 @@
           />
       </fab-if>
 
-  <fab-if when="$mensagem_middle >= 9">
+  <fab-if when="$mensagem_prova >= 9">
        <agent 
          id="imagem1" 
          x="0" 
@@ -144,21 +144,21 @@
           animation="fade-in"
         />
         <agent
-          id="trigger_colega"
+          id="trigger_ambiente"
           text="Ver as pessoas ao redor"
           x="90"
           y="390"
           animation="hover-grow"
-          on_click="set(mensagem_middle, 0); set(insetos, true); goToPage('colega')"
+          on_click="set(mensagem_middle, 0); goToPage('ambiente')"
           font-size="20"
         />
         <agent
-          id="trigger_celular"
+          id="trigger_frase"
           text="Rever as instruções do cenário"
           y="390"
           x="475"
           animation="hover-grow"
-          on_click="set(mensagem_middle, 0); set(insetos, false); goToPage('celular')" 
+          on_click="set(mensagem_middle, 0); goToPage('frase')" 
           font-size="20"
         />
     </fab-if>
