@@ -1,3 +1,38 @@
-<page id="final-covarde" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final-covarde" color="white" font-size="24" />
+<page id="final-covarde" bg_image="vag_o.png">
+  <agent 
+    id="titulo" 
+    x="100" 
+    y="50" 
+    text="Covarde" 
+    color="darkred" 
+    font-size="62" 
+    animation="slide-up"
+    />
+  <agent
+    id="tomalemoral"
+    x="110"
+    y="170"
+    text="Você hesitou"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="tomalemoral1"
+    x="110"
+    y="210"
+    text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="tomalemoral2ca"
+    x="110"
+    y="250"
+    text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
 </page>
