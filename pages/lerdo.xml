@@ -1,0 +1,3 @@
+<page id="lerdo" bg_color="black">
+  <agent id="titulo" x="center" y="center" text="Página lerdo" color="white" font-size="24" />
+</page>
