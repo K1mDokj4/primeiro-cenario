@@ -9,7 +9,7 @@
     animation="slide-up"
     />
   <agent
-    id="tomalemoral"
+    id="cansei1"
     x="110"
     y="170"
     text="Você hesitou"
@@ -18,7 +18,7 @@
     animation="slide-up"
     />
   <agent
-    id="tomalemoral1"
+    id="cansei2"
     x="110"
     y="210"
     text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
@@ -27,10 +27,38 @@
     animation="slide-up"
     />
   <agent
-    id="tomalemoral2ca"
+    id="cansei3"
     x="110"
     y="250"
-    text="Talvez tenha sido o medo. Talvez o instinto de autopreservação."
+    text="Enquanto os outros gritavam, lutavam, morriam…, você parou"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="cansei4"
+    x="110"
+    y="290"
+    text="E no silêncio que se seguiu, o mundo seguiu sem você"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+
+  <agent
+    id="cansei5"
+    x="110"
+    y="330"
+    text="As constelações não o julgaram."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="cansei6"
+    x="110"
+    y="370"
+    text="Mas também não o notaram."
     color="white"
     font-size="24"
     animation="slide-up"
