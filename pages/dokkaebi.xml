@@ -427,11 +427,24 @@
           />
       </fab-if>
 
-<fab-if 
+  <fab-if 
     when="$mensagem_dokkaebi = 34">
         <agent
           id="Dokkaebi10"
           text="『ESSES BONS TEMPOS CHEGARAM AO FIM!! Nem tudo é de graça para sempre』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_dokkaebi = 35">
+        <agent
+          id="Dokkaebi11"
+          text="『O canal #BI-7623 foi aberto! As constelações vão entrar』"
           x="0" 
           y="454" 
           color="crimson"
