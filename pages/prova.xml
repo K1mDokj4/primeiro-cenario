@@ -1,5 +1,14 @@
 <page id="prova"  bg_image="metroballontext_800x600_2_.png">
-
+<agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_prova, $mensagem_prova+1)"
+      animation="hover-grow"
+    />
 <fab-if 
     when="$mensagem_prova = 0">
         <agent
@@ -127,7 +136,7 @@
         /> 
         <agent
           id="pergunta"
-          text="Tem algo que você queira fazer?"
+          text="Você pode fazer uma escolha agora:"
           color="gold"
           x="center"
           y="300"
@@ -136,7 +145,7 @@
         />
         <agent
           id="trigger_colega"
-          text="Olhar para os passageiros"
+          text="Ver as pessoas ao redor"
           x="90"
           y="390"
           animation="hover-grow"
@@ -145,22 +154,13 @@
         />
         <agent
           id="trigger_celular"
-          text="Olhar para o seu celular"
+          text="Rever as instruções do cenário"
           y="390"
           x="475"
           animation="hover-grow"
           on_click="set(mensagem_middle, 0); set(insetos, false); goToPage('celular')" 
           font-size="20"
         />
-<agent
-      id="narrativa"
-      text="clique aqui para avançar"
-      color="darkgray"
-      x="615" 
-      y="546"
-      font-size="15"
-      on_click="set(mensagem_prova, $mensagem_prova+1)"
-      animation="hover-grow"
-    />
+    </fab-if>
   
 </page>
