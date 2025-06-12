@@ -1,3 +1,85 @@
-<page id="final-martir" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final-martir" color="white" font-size="24" />
+<page id="final-martir" bg_image="vag_o.png">
+  <agent 
+    id="martir" 
+    x="100" 
+    y="80" 
+    text="Falso Mártir" 
+    color="darkgoldenrod" 
+    font-size="62" 
+    animation="slide-up"
+    />
+  <agent
+    id="martir-1"
+    x="110"
+    y="170"
+    text="Você pega a caixa de insetos e encara a criança imóvel"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="martir-2"
+    x="110"
+    y="210"
+    text="A criança parecia entender o que você faria"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="martir-3"
+    x="110"
+    y="250"
+    text="Yoo Sangah te olha chorando, gritando para que pare"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="martir-4"
+    x="110"
+    y="290"
+    text="Ela preferia ter morrido, mas era você quem escolhia."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+
+  <agent
+    id="martir-5"
+    x="110"
+    y="330"
+    text="As constelações adoraram o espetáculo."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="martir-6"
+    x="110"
+    y="370"
+    text="Especialmente o final."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="martir-7"
+    x="110"
+    y="410"
+    text="↳ Status: Você a forçou a viver. E matou por isso."
+    color="darkgoldenrod"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="martir-8"
+    text="Voltar para Estação"
+    color="gold"
+    animation="fade-in-up"
+    x="500"
+    y="470"
+    font-size="28"
+    on_click="reset()"
+  />
 </page>
