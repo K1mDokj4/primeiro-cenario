@@ -1,3 +1,41 @@
-<page id="prova" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página prova" color="white" font-size="24" />
+<page id="prova"  bg_image="metroballontext_800x600_2_.png">
+
+<fab-if 
+    when="$mensagem_prova = 0">
+        <agent
+          id="Dokkaebi1"
+          text="『Tornem as coisas BEM interessantes, por favor』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+<fab-if 
+    when="$mensagem_prova = 1">
+        <agent
+          id="Dokkaebi2"
+          text="De repente a criatura sumiu deixando todos no vagão olhando assustados para os arredores"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  
+<agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_prova, $mensagem_prova+1)"
+      animation="hover-grow"
+    />
+  
 </page>
