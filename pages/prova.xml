@@ -52,8 +52,106 @@
           />
       </fab-if>
 
+  <fab-if 
+    when="$mensagem_prova = 4">
+        <agent
+          id="tws3"
+          text='"Um assalariado coberto de sangue e tremendo de medo"'
+          x="0" 
+          y="454" 
+          color="darkgoldenrod"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
 
-  
+  <fab-if 
+    when="$mensagem_prova = 5">
+        <agent
+          id="tws4"
+          text='"Uma senhora sentada no assento preferencial rezando"'
+          x="0" 
+          y="454" 
+          color="darkgoldenrod"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_prova = 6">
+        <agent
+          id="Kim1"
+          text='『Era uma situação difícil de acreditar. Mas não há dúvidas...』'
+          x="0" 
+          y="454" 
+          color="skyblue"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_prova = 7">
+        <agent
+          id="Kim2"
+          text='『Não... eu não tenho escolha a não ser acreditar』'
+          x="0" 
+          y="454" 
+          color="skyblue"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_prova = 8">
+        <agent
+          id="Kim3"
+          text='『Eu não sei o porquê, mas uma coisa é certa, a novel "Three Ways to Survive", a novel que eu leio a mais de uma década, se tornou realidade na minha frente』'
+          x="0" 
+          y="454" 
+          color="skyblue"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_middle >= 0">
+       <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+        <agent
+          id="pergunta"
+          text="Tem algo que você queira fazer?"
+          color="gold"
+          x="center"
+          y="300"
+          font-size="25"
+          animation="fade-in"
+        />
+        <agent
+          id="trigger_colega"
+          text="Olhar para os passageiros"
+          x="90"
+          y="390"
+          animation="hover-grow"
+          on_click="set(mensagem_middle, 0); set(insetos, true); goToPage('colega')"
+          font-size="20"
+        />
+        <agent
+          id="trigger_celular"
+          text="Olhar para o seu celular"
+          y="390"
+          x="475"
+          animation="hover-grow"
+          on_click="set(mensagem_middle, 0); set(insetos, false); goToPage('celular')" 
+          font-size="20"
+        />
 <agent
       id="narrativa"
       text="clique aqui para avançar"
