@@ -1,3 +1,95 @@
-<page id="final-trueending" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página final-trueending" color="white" font-size="24" />
+<page id="final-trueending" bg_image="vag_o.png">
+  <agent 
+    id="true" 
+    x="100" 
+    y="80" 
+    text="Leitor Onisciente" 
+    color="darkgoldenrod" 
+    font-size="62" 
+    animation="slide-up"
+    />
+  <agent
+    id="true-1"
+    x="110"
+    y="170"
+    text="Incrivelmente, você seguiu o seu coração, e não o roteiro"
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="true-2"
+    x="110"
+    y="210"
+    text="Yoo Sangah sobreviveu. E o garoto acreditou em você até o fim."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="true-3"
+    x="110"
+    y="250"
+    text="Eles não sabiam, mas suas vidas eram peças de algo muito maior."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="true-4"
+    x="110"
+    y="290"
+    text="E porque você os salvou... o mundo mudou."
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+
+  <agent
+    id="true-5"
+    x="110"
+    y="330"
+    text="As constelações começam a sussurrar seu nome. "
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="true-6"
+    x="110"
+    y="370"
+    text='A narrativa tremeu. '
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="true-7"
+    x="110"
+    y="410"
+    text='A história começou a reescrever-se por sua causa.'
+    color="white"
+    font-size="24"
+    animation="slide-up"
+    />
+  
+  <agent
+    id="true-8"
+    x="110"
+    y="450"
+    text="↳ Status: Lembrado, mas não compreendido."
+    color="darkgoldenrod"
+    font-size="24"
+    animation="slide-up"
+    />
+  <agent
+    id="true-9"
+    text="Voltar para Estação"
+    color="gold"
+    animation="fade-in-up"
+    x="500"
+    y="510"
+    font-size="28"
+    on_click="reset()"
+  />
 </page>
