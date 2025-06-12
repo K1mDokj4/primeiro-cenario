@@ -1,3 +1,12 @@
-<page id="ambiente" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página ambiente" color="white" font-size="24" />
+<page id="ambiente" bg_image="metroballontext_800x600_2_.png">
+   <agent
+    id="narrativa"
+    text="clique aqui para avançar"
+    color="darkgray"
+    x="615" 
+    y="546"
+    font-size="15"
+    on_click="set(mensagem_colega, $mensagem_colega+1)"
+    animation="hover-grow"
+  />
 </page>
