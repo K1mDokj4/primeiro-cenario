@@ -287,13 +287,38 @@
 
   <fab-if when="$mensagem_dokkaebi = 22">
         <agent
-          id="Crownd3"
+          id="narrador2"
           text="Logo começou uma comoção pública na frente do Diabrete, pessoas gritando, crianças chorando."
           x="0" 
           y="454" 
-          color="silver"
+          color="dimgray"
           font-size="24"
           animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_dokkaebi = 23">
+        <agent
+          id="narrador3"
+          text="Até que chegou o momento em que a paciência do Diabrete sumiu"
+          x="0" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+          />
+      </fab-if>
+
+  <fab-if 
+    when="$mensagem_dokkaebi = 24">
+        <agent
+          id="Dokkaebi2"
+          text="『』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
           />
       </fab-if>
 </page>
