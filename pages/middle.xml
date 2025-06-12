@@ -1,7 +1,16 @@
 <page id="middle" bg_image="metroballontext_800x600_2_.png">
 
   <!-- Eu fiz um contador para que eu não precisasse usar muitas páginas só para diálogo, cada clique conta para a passagem; Eu queria que fosse na tela toda mas não descobri como fazer, então usei um "balao de texto" para atuar como trigger. acho que poderia colocar um contador para o ID tbm, mas eu tenho medo de entrar em conflito -->
-
+<agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_middle, $mensagem_middle+1)"
+      animation="hover-grow"
+    />
   <!-- Sessão de diálogo -->
   <fab-if when="$mensagem_middle = 0">
       <agent
@@ -102,16 +111,5 @@
         />
         <!-- Mesmo que o default já seja False, é uma medida de segurança para que você não entre em conflito -->
         </fab-if>
-     
-  <agent
-      id="narrativa"
-      text="clique aqui para avançar"
-      color="darkgray"
-      x="615" 
-      y="546"
-      font-size="15"
-      on_click="set(mensagem_middle, $mensagem_middle+1)"
-      animation="hover-grow"
-    />
 
 </page>
