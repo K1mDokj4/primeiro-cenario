@@ -6,7 +6,20 @@
     x="615" 
     y="546"
     font-size="15"
-    on_click="set(mensagem_ambiente, $mensagem_ambiente+1)"
+    on_click="set(mensagem_frase, $mensagem_frase+1)"
     animation="hover-grow"
   />
+
+  <fab-if when="$mensagem_frase = 0">
+      <agent
+        id="narrador1"
+        text="Por mais que você tenha informações sobre as coisas que estão acontecendo agora, você continua sendo somente uma pessoa normal. Seu corpo se tremeu inteiro e você olhou ao redor"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  
 </page>
