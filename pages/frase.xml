@@ -117,4 +117,28 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_frase = 9">
+        <agent
+          id="Dokkaebi2"
+          text="『Como vocês estão lerdando muito para começar logo o que eu mandei, vou mostrar o que acontecerá com vocês』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_frase = 10">
+      <agent
+        id="narrador4"
+        text='Em meio aos sorrisos maléficos do Diabrete, surgiram telas no ar'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
