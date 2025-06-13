@@ -133,12 +133,47 @@
   <fab-if when="$mensagem_frase = 10">
       <agent
         id="narrador4"
-        text='Em meio aos sorrisos maléficos do Diabrete, surgiram telas no ar'
+        text='Em meio aos sorrisos maléficos do Diabrete, surgiram telas no ar, mostrando o que estava acontecendo em outros lugares'
         x="10" 
         y="454" 
         color="dimgray"
         font-size="24"
         animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 11">
+      <agent
+        id="narrador5"
+        text='O primeiro deles foi uma escola, após os trinta minutos um som de alarme começou a tocar, e vários alunos foram mortos aleatóriamente até que começassem a se matar'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="glitch"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 12">
+      <agent
+        id="narrador6"
+        text='Era possível ouvir tudo, os gritos, os choros, até mesmo o som da pele dos alunos contra o chão foi ouvido até que você ouviu um "crack"'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="glitch"
+      />
+    </fab-if>
+  <fab-if when="$mensagem_frase = 12">
+      <agent
+        id="narrador7"
+        text='Era possível ouvir tudo, os gritos, os choros, até mesmo o som da pele dos alunos contra o chão foi ouvido até que você ouviu um "crack"'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="glitch"
       />
     </fab-if>
 </page>
