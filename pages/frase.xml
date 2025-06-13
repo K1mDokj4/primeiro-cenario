@@ -260,6 +260,15 @@
         animation="fade-in-up"
       />
     </fab-if>
+  <fab-if when="$mensagem_frase >= 0">
+    <fab-if when="$mensagem_frase <= 100">
+    <agent 
+      id="image1" 
+      image="caract_unica.png"
+      x="center" 
+      y="" 
+  </fab-if />
+</fab-if>
 
   <fab-if when="$mensagem_frase = 21">
       <agent
