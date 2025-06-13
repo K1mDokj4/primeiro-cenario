@@ -351,7 +351,7 @@
     when="$mensagem_dokkaebi = 27">
         <agent
           id="Dokkaebi5"
-          text="『Não é a cena de um filme』"
+          text="『Isso não é a cena de um filme』"
           x="0" 
           y="454" 
           color="crimson"
@@ -468,7 +468,7 @@
         text="『Na sua frente apreceu uma janela azul, bem parecida com a interface de um jogo. Seus olhos se arregalaram, todos os passos estavam sendo repetidos, era como se você conseguisse ler o futuro』"
         x="0" 
         y="450" 
-        color="skyblue"
+        color="dimgray"
         font-size="24"
         animation="fade-in-up"
       />
