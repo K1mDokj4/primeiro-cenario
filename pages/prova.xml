@@ -158,7 +158,7 @@
           y="390"
           x="475"
           animation="hover-grow"
-          on_click="set(mensagem_middle, 0); goToPage('frase')" 
+          on_click="set(mensagem_prova, 0); goToPage('frase')" 
           font-size="20"
         />
     </fab-if>
