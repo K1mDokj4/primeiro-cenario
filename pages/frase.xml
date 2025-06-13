@@ -263,8 +263,8 @@
 
   <fab-if when="$mensagem_frase = 21">
       <agent
-        id="narrador10"
-        text='Seus olhos não acreditavam no que você estava vendo'
+        id="narrador11"
+        text='Você começou a ler'
         x="10" 
         y="454" 
         color="dimgray"
