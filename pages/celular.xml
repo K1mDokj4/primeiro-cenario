@@ -205,6 +205,30 @@
 
   <fab-if when="$mensagem_celular = 16">
       <agent
+        id="narrador3"
+        text="Seus olhos passaram rapidamente pelo vagão tentando não pensar muito sobre o isso"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 17">
+      <agent
+        id="narrador4"
+        text="Você até reconheceu pessoas da empresa em que trabalha, como Yoo Sangah do RH e o Diretor Financeiro. Mas nada te fez parar de pensar sobre esse sentimento aflorando em você"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_celular = 18">
+      <agent
         id="Kim16"
         text="『Se minha vida fosse de outro gênero...』"
         x="0" 
@@ -215,7 +239,7 @@
       />
     </fab-if>
 
-    <fab-if when="$mensagem_celular = 17">
+    <fab-if when="$mensagem_celular = 19">
       <agent
         id="Kim17"
         text='『Quero dizer, se o gênero da minha vida não fosse "Realismo" e sim "Fantasia"』'
@@ -227,7 +251,7 @@
       />
     </fab-if>
    
-   <fab-if when="$mensagem_celular = 18">
+   <fab-if when="$mensagem_celular = 20">
       <agent
         id="Kim18"
         text="『Eu poderia me tornar...』"
@@ -239,7 +263,7 @@
         />
     </fab-if>
 
-    <fab-if when="$mensagem_celular = 19">
+    <fab-if when="$mensagem_celular = 21">
       <agent
         id="Kim19"
         text="『O Protagonista?』"
@@ -251,7 +275,7 @@
         />
     </fab-if>
 
-    <fab-if when="$mensagem_celular = 20">
+    <fab-if when="$mensagem_celular = 22">
       <agent
         id="Kim20"
         text='『Eu não sei, mas, o que eu tenho certeza é que o gênero da minha vida é sem dúvidas o "Realismo"』'
@@ -263,7 +287,7 @@
         />
     </fab-if>
 
-   <fab-if when="$mensagem_celular = 21">
+   <fab-if when="$mensagem_celular = 23">
       <agent
         id="Kim21"
         text='『E nesse gênero, eu não sou o protagonista, mas o "Leitor"』'
@@ -275,7 +299,7 @@
         />
     </fab-if>
 
-  <fab-if when="$mensagem_celular = 22">
+  <fab-if when="$mensagem_celular = 24">
       <agent
         id="narrador3"
         text="Seu celular vibra e você olha a notificação"
@@ -287,7 +311,7 @@
         />
     </fab-if>
  
-  <fab-if when="$mensagem_celular = 23">
+  <fab-if when="$mensagem_celular = 25">
       <agent
         id="narrador4"
         text="Caro leitor, a monetização começará hoje às 19H. Isso será uma ajuda para você, te desejo boa sorte. novel.txt"
@@ -299,7 +323,7 @@
         />
     </fab-if>
 
-  <fab-if when="$mensagem_celular = 24">
+  <fab-if when="$mensagem_celular = 26">
       <agent
         id="Kim22"
         text="Que estranho..."
@@ -311,7 +335,7 @@
         />
     </fab-if>
 
-    <fab-if when="$mensagem_celular = 25">
+    <fab-if when="$mensagem_celular = 27">
       <agent
         id="narrador5"
         text="As luzes se apagaram de repente"
@@ -323,7 +347,7 @@
         />
     </fab-if>
 
-    <fab-if when="$mensagem_celular = 26">
+    <fab-if when="$mensagem_celular = 28">
         <agent
           id="explosao1"
           text="KWAAM!"
@@ -335,7 +359,7 @@
           />
       </fab-if>
 
-    <fab-if when="$mensagem_celular = 27">
+    <fab-if when="$mensagem_celular = 29">
         <agent
           id="freio"
           text="SKRRRR!"
@@ -347,7 +371,7 @@
           />
       </fab-if>
    
-  <fab-if when="$mensagem_celular = 28">
+  <fab-if when="$mensagem_celular = 30">
         <agent
           id="Crownd"
           text="ISSO É UM ATAQUE TERRORISTA?!"
@@ -359,7 +383,7 @@
           />
       </fab-if>
 
-  <fab-if when="$mensagem_celular = 29">
+  <fab-if when="$mensagem_celular = 31">
         <agent
           id="narrador6"
           text="Você escuta uma risada medonha que te faz engolir seco..."
@@ -371,7 +395,7 @@
           />
       </fab-if>
   
-  <fab-if when="$mensagem_celular = 30">
+  <fab-if when="$mensagem_celular = 32">
         <agent
           id="Dokkaebi1"
           text="『O serviço gratuido do sistema planetário 8612 terminou』"
@@ -383,7 +407,7 @@
           />
       </fab-if>
   
-  <fab-if when="$mensagem_celular = 31">
+  <fab-if when="$mensagem_celular = 33">
         <agent
           id="Dokkaebi2"
           text="『O Primeiro Cenário começará agora...』"
@@ -395,7 +419,7 @@
           />
       </fab-if>
 
-  <fab-if when="$mensagem_celular = 32">
+  <fab-if when="$mensagem_celular = 34">
         <agent
           id="Kim23"
           text="『Esse foi o instante em que o gênero da minha vida mudou』"
@@ -406,7 +430,7 @@
           animation="fade-in-up"
           />
       </fab-if>
-  <fab-if when="$mensagem_celular &gt; 32">
+  <fab-if when="$mensagem_celular >= 35">
        <agent 
          id="imagem1" 
          x="0" 
