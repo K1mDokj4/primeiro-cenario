@@ -93,4 +93,28 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_frase = 7">
+      <agent
+        id="Kim4"
+        text='『As coisas definitivamente estão se desenrolando igual à novel, mas como "Ele" não apareceu ainda? 』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 8">
+      <agent
+        id="narrador3"
+        text='Como as pessoas ainda pareciam imóveis pela situação anômala. O Diabrete apareceu mais uma vez para fazer com que o "show continuasse"'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
