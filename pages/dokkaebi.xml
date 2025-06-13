@@ -474,7 +474,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_dokkaebi &gt; 36">
+  <fab-if when="$mensagem_dokkaebi >= 36">
        <agent 
          id="imagem2" 
          x="0" 
