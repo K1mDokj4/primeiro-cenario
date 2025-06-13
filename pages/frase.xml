@@ -25,7 +25,7 @@
   <fab-if when="$mensagem_frase = 1">
       <agent
         id="narrador2"
-        text="Você olha para sua e percebe que Yoo Sangah está segurando seu braço com medo enquanto roe "
+        text="Você olha para sua e percebe que Yoo Sangah está segurando seu braço com medo enquanto rói suas unhas e tenta ligar para a polícia"
         x="10" 
         y="454" 
         color="dimgray"
@@ -33,5 +33,64 @@
         animation="fade-in-up"
       />
     </fab-if>
-  
+
+  <fab-if when="$mensagem_frase = 2">
+      <agent
+        id="Yoo1"
+        text="A polícia não está atendendo! O que vamos fazer..."
+        x="10" 
+        y="454" 
+        color="darkorange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 3">
+      <agent
+        id="Kim1"
+        text="Yoo, você se lembra daquele jogo feito pelo time de desenvolvimento, certo? Pense assim, você está nele agora"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 4">
+      <agent
+        id="Yoo2"
+        text="Jogo...? O que você está..."
+        x="10" 
+        y="454" 
+        color="darkorange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 5">
+      <agent
+        id="Kim2"
+        text="É simples, todos jogos tem regras. Só precisamos descobrir quais são"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 6">
+      <agent
+        id="Kim3"
+        text="『Pense... O que eu preciso fazer para sobreviver nesse  mundo』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
