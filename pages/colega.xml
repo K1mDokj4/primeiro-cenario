@@ -76,7 +76,7 @@
         text="É raro ver seu rosto sem estar tampado pelo seu celular"
         x="0" 
         y="454" 
-        color="orange"
+        color="darkorange"
         font-size="24"
         animation="fade-in-up"
       />
@@ -100,7 +100,7 @@
         text="Eu tive sorte! O chefe do departamento viajou hoje, consegui ir mais cedo para casa!"
         x="0" 
         y="454" 
-        color="orange"
+        color="darkorange"
         font-size="24"
         animation="fade-in-up"
       />
@@ -136,7 +136,7 @@
         text="Eu comecei a fazer muitas horas extras, então pensei que seria uma boa ideia começar a andar de bicicleta, mas alguém roubou ela hoje..."
         x="0" 
         y="454" 
-        color="orange"
+        color="darkorange"
         font-size="24"
         animation="fade-in-up"
       />
