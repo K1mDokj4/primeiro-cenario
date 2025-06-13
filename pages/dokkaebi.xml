@@ -87,7 +87,7 @@
         text="Um Diabrete...?"
         x="0" 
         y="475" 
-        color="orange"
+        color="darkorange"
         font-size="24"
         animation="fade-in-up"
       />
