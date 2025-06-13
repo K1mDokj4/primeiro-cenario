@@ -10,10 +10,22 @@
     animation="hover-grow"
   />
 
-  <fab-if when="$mensagem_frase = 0 and $insetos=true">
+  <fab-if when="$mensagem_frase = 0">
       <agent
         id="narrador1"
-        text="Por mais que você tenha informações sobre as coisas que estão acontecendo agora, você continua sendo somente uma pessoa normal. Seu corpo se tremeu inteiro e você olhou ao redor"
+        text="Você respira fundo, estranhamente você estava muito calmo, muito mais calmo do que você jamais seria em uma situação assim"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 1">
+      <agent
+        id="narrador2"
+        text="Você olha para sua e percebe que Yoo Sangah está segurando seu braço com medo enquanto roe "
         x="10" 
         y="454" 
         color="dimgray"
