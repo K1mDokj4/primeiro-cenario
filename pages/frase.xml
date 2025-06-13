@@ -236,4 +236,16 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_frase = 19">
+      <agent
+        id="Kim9"
+        text='Você olhou de novo o e-mail mandado para o seu celular. Ao clicar no arquivo .txt algo incrível acontece, é realmente a novel original. É como se você tivesse o futuro nas suas mãos』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
