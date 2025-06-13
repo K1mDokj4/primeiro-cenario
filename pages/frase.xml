@@ -249,7 +249,19 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 19">
+  <fab-if when="$mensagem_frase = 20">
+      <agent
+        id="narrador10"
+        text='Seus olhos não acreditavam no que você estava vendo'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 21">
       <agent
         id="narrador10"
         text='Seus olhos não acreditavam no que você estava vendo'
