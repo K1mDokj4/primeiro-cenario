@@ -165,19 +165,8 @@
         animation="fade-in-up"
       />
     </fab-if>
-  <fab-if when="$mensagem_frase = 13">
-      <agent
-        id="narrador7"
-        text='Era possível ouvir tudo, os gritos, os choros, até mesmo o som da pele dos alunos contra o chão foi ouvido até que você ouviu um "crack"'
-        x="10" 
-        y="454" 
-        color="dimgray"
-        font-size="24"
-        animation="fade-in-up"
-      />
-    </fab-if>
 
-  <fab-if when="$mensagem_frase = 14">
+  <fab-if when="$mensagem_frase = 13">
         <agent
           id="Dokkaebi3"
           text="『E então? Não foi divertido?』"
@@ -189,7 +178,7 @@
           />
       </fab-if>
 
-  <fab-if when="$mensagem_frase = 15">
+  <fab-if when="$mensagem_frase = 14">
       <agent
         id="narrador8"
         text='Yoo Sangah solta o seu braço e fica de costas para você tremendo enquanto parece pensar em alguma coisa'
@@ -201,7 +190,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 16">
+  <fab-if when="$mensagem_frase = 15">
       <agent
         id="Kim5"
         text='『Estranho... Por que "aquele cara" ainda não apareceu?? 』'
@@ -213,7 +202,7 @@
       />
     </fab-if>
 
-   <fab-if when="$mensagem_frase = 17">
+   <fab-if when="$mensagem_frase = 16">
       <agent
         id="Kim7"
         text='『O que eu sei da novel está acontecendo ao mesmo tempo de coisas que eu não sei agora. O único jeito de sair dessa é lendo a novel de novo mas...』'
@@ -225,10 +214,10 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 18">
+  <fab-if when="$mensagem_frase = 17">
       <agent
         id="Kim8"
-        text='『Merda, ela foi mesmo apagaga, e provavelmente não tem nenhum reupload... espera...』'
+        text='『Merda, ela foi mesmo apagada, e provavelmente não tem nenhum reupload... espera...』'
         x="10" 
         y="454" 
         color="skyblue"
@@ -237,7 +226,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 19">
+  <fab-if when="$mensagem_frase = 18">
       <agent
         id="narrador9"
         text='Você olhou de novo o e-mail mandado para o seu celular. Ao clicar no arquivo .txt algo incrível acontece, é realmente a novel original. É como se você tivesse o futuro nas suas mãos'
@@ -249,7 +238,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 20">
+  <fab-if when="$mensagem_frase = 19">
       <agent
         id="narrador10"
         text='Seus olhos não acreditavam no que você estava vendo'
@@ -261,7 +250,7 @@
       />
     </fab-if>
   
-  <fab-if when="$mensagem_frase >= 21 and $mensagem_frase <= 22">
+  <fab-if when="$mensagem_frase >= 20 and $mensagem_frase <= 21">
     <agent
       id="image1"
       image="caract_unica.png"
@@ -271,7 +260,7 @@
     />
   </fab-if>
 
-  <fab-if when="$mensagem_frase = 21">
+  <fab-if when="$mensagem_frase = 20">
       <agent
         id="narrador11"
         text='Você acabou de ler o início de Three Ways to Survive em menos de um minuto'
@@ -283,7 +272,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 22">
+  <fab-if when="$mensagem_frase = 21">
       <agent
         id="narrador12"
         text='Sua cabeça doeu um pouco mas você descobriu o que queria'
@@ -295,7 +284,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 23">
+  <fab-if when="$mensagem_frase = 22">
       <agent
         id="Kim9"
         text='『Ele está no vagão 3707, isso explicava a sensação ruim que eu estava sentindo』'
@@ -307,7 +296,7 @@
       />
     </fab-if>
  
-  <fab-if when="$mensagem_frase = 24">
+  <fab-if when="$mensagem_frase = 23">
       <agent
         id="Kim10"
         text='『O motivo de ser levemente diferente do plot da novel, o vagão que eu estava era logo atrás do vagão do protagonista do prólogo. Mas... o que acontece com as pessoas nesse vagão?』'
@@ -319,7 +308,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 25">
+  <fab-if when="$mensagem_frase = 24">
       <agent
         id="tws1"
         text='"Ele olhou para o caos acontecendo no vagão na sua frente pela janela embaçada"'
@@ -331,7 +320,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 26">
+  <fab-if when="$mensagem_frase = 25">
       <agent
         id="tws2"
         text='"Era tarde demais para eles. Não havia salvação, porque os únicos sobreviventes daquele vagão eram duas pessoas"'
@@ -343,7 +332,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 27">
+  <fab-if when="$mensagem_frase = 26">
       <agent
         id="Kim11"
         text='『Eu já sabia quem eram essas "duas pessoas"』'
@@ -355,7 +344,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 28">
+  <fab-if when="$mensagem_frase = 27">
       <agent
         id="Kim12"
         text='『Essa mulher, Yoo Sangah, provavelmente vai morrer. Só dois iram sobreviver, fora eles todo o resto nesse vagão irá morrer』'
@@ -367,10 +356,107 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 29">
+  <fab-if when="$mensagem_frase = 28">
       <agent
         id="Kim13"
         text='『Incluindo eu』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 29">
+      <agent
+        id="tws3"
+        text='"Todos nesse vagão vão morrer se ninguém matar em 5 minutos"'
+        x="10" 
+        y="454" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 30">
+      <agent
+        id="Kim14"
+        text='『"Os carrascos puxam a alavanca ao mesmo tempo. Então continua desconhecido quem matou a pessoa condenada a morte"』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  
+  <fab-if when="$mensagem_frase = 31">
+      <agent
+        id="Kim15"
+        text='『Lembro de ler isso uma vez』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  
+<fab-if when="$mensagem_frase = 32">
+      <agent
+        id="narrador13"
+        text='Um grupo de pessoas cercou uma senhora e a jogou no chão enquanto pisoteavam ela, você ouvia os gritos da senhora reverberando no seu cérebro'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 33">
+      <agent
+        id="Kim16"
+        text='『E eu... assisti a situação como se estivesse lendo isso de novo. Eu apenas vi tudo acontecer de novo』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 34">
+      <agent
+        id="Kim17"
+        text='『Como se estivesse acontecendo em outra dimensão』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 35">
+      <agent
+        id="Kim18"
+        text='『A senhora sem nome foi a primeira a ser sacrificada na novel. Minhas possibilidades de sobrevivência podem diminuir se eu mudar os eventos』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 36">
+      <agent
+        id="Kim19"
+        text='『Mas apenas ficar assistindo pode causa disso, realmente é o certo?』'
         x="10" 
         y="454" 
         color="skyblue"
