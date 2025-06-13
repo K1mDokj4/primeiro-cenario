@@ -10,7 +10,7 @@
     animation="hover-grow"
   />
 
-  <fab-if when="$mensagem_frase = 0">
+  <fab-if when="$mensagem_frase = 0 and $insetos=true">
       <agent
         id="narrador1"
         text="Por mais que você tenha informações sobre as coisas que estão acontecendo agora, você continua sendo somente uma pessoa normal. Seu corpo se tremeu inteiro e você olhou ao redor"
