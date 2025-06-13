@@ -176,4 +176,64 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_frase = 14">
+        <agent
+          id="Dokkaebi3"
+          text="『E então? Não foi divertido?』"
+          x="0" 
+          y="454" 
+          color="crimson"
+          font-size="24"
+          animation="pulse click-shake glow"
+          />
+      </fab-if>
+
+  <fab-if when="$mensagem_frase = 15">
+      <agent
+        id="narrador8"
+        text='Yoo Sangah solta o seu braço e fica de costas para você tremendo enquanto parece pensar em alguma coisa'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 16">
+      <agent
+        id="Kim5"
+        text='『Estranho... Por que "aquele cara" ainda não apareceu?? 』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+   <fab-if when="$mensagem_frase = 17">
+      <agent
+        id="Kim7"
+        text='『O que eu sei da novel está acontecendo ao mesmo tempo de coisas que eu não sei agora. O único jeito de sair dessa é lendo a novel de novo mas...』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 18">
+      <agent
+        id="Kim8"
+        text='『Merda, ela foi mesmo apagaga, e provavelmente não tem nenhum reupload... espera...』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
