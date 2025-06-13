@@ -260,23 +260,120 @@
         animation="fade-in-up"
       />
     </fab-if>
-  <fab-if when="$mensagem_frase >= 0">
-    <fab-if when="$mensagem_frase <= 100">
-    <agent 
-      id="image1" 
+  
+  <fab-if when="$mensagem_frase >= 21 and $mensagem_frase <= 22">
+    <agent
+      id="image1"
       image="caract_unica.png"
-      x="center" 
-      y="" 
-  </fab-if />
-</fab-if>
+      x="300"
+      y="50"
+      animation="float"
+    />
+  </fab-if>
 
   <fab-if when="$mensagem_frase = 21">
       <agent
         id="narrador11"
-        text='Você começou a ler'
+        text='Você acabou de ler o início de Three Ways to Survive em menos de um minuto'
         x="10" 
         y="454" 
         color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 22">
+      <agent
+        id="narrador12"
+        text='Sua cabeça doeu um pouco mas você descobriu o que queria'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 23">
+      <agent
+        id="Kim9"
+        text='『Ele está no vagão 3707, isso explicava a sensação ruim que eu estava sentindo』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+ 
+  <fab-if when="$mensagem_frase = 24">
+      <agent
+        id="Kim10"
+        text='『O motivo de ser levemente diferente do plot da novel, o vagão que eu estava era logo atrás do vagão do protagonista do prólogo. Mas... o que acontece com as pessoas nesse vagão?』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 25">
+      <agent
+        id="tws1"
+        text='"Ele olhou para o caos acontecendo no vagão na sua frente pela janela embaçada"'
+        x="10" 
+        y="454" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 26">
+      <agent
+        id="tws2"
+        text='"Era tarde demais para eles. Não havia salvação, porque os únicos sobreviventes daquele vagão eram duas pessoas"'
+        x="10" 
+        y="454" 
+        color="darkgoldenrod"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 27">
+      <agent
+        id="Kim11"
+        text='『Eu já sabia quem eram essas "duas pessoas"』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 28">
+      <agent
+        id="Kim12"
+        text='『Essa mulher, Yoo Sangah, provavelmente vai morrer. Só dois iram sobreviver, fora eles todo o resto nesse vagão irá morrer』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 29">
+      <agent
+        id="Kim13"
+        text='『Incluindo eu』'
+        x="10" 
+        y="454" 
+        color="skyblue"
         font-size="24"
         animation="fade-in-up"
       />
