@@ -85,7 +85,7 @@
   <fab-if when="$mensagem_ambiente = 6">
       <agent
         id="narrador7"
-      text="Há muitas teorias sobre maldade humana, tem que pense que fomos corrompidos, ou que nascemos assim. Você não sabia ao certo a resposta, nunca sequer havia pensado nisso"
+      text="Há muitas teorias sobre maldade humana, tem quem pense que fomos corrompidos, ou que nascemos assim. Você não sabia ao certo a resposta, nunca sequer havia pensado nisso"
         x="10" 
         y="454" 
         color="dimgray"
@@ -109,7 +109,7 @@
   <fab-if when="$mensagem_ambiente = 8">
       <agent
         id="narrador9"
-      text="Afinal de contas, em meio ao desespero, você procurava também um alvo mais fraco que você. Seu medo de morrer fez com que todo o conteudo da novel desaparecesse da sua cabeça"
+      text="Afinal de contas, em meio ao desespero, você também procurava um alvo mais fraco que você. Seu medo de morrer fez com que todo o conteudo da novel desaparecesse da sua cabeça"
         x="10" 
         y="454" 
         color="dimgray"
