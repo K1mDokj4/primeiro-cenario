@@ -150,7 +150,7 @@
         y="454" 
         color="dimgray"
         font-size="24"
-        animation="glitch"
+        animation="fade-in-up"
       />
     </fab-if>
 
@@ -162,10 +162,10 @@
         y="454" 
         color="dimgray"
         font-size="24"
-        animation="glitch"
+        animation="fade-in-up"
       />
     </fab-if>
-  <fab-if when="$mensagem_frase = 12">
+  <fab-if when="$mensagem_frase = 13">
       <agent
         id="narrador7"
         text='Era possível ouvir tudo, os gritos, os choros, até mesmo o som da pele dos alunos contra o chão foi ouvido até que você ouviu um "crack"'
@@ -173,7 +173,7 @@
         y="454" 
         color="dimgray"
         font-size="24"
-        animation="glitch"
+        animation="fade-in-up"
       />
     </fab-if>
 </page>
