@@ -1,4 +1,4 @@
-<page id="frase" bg_image="vagaoposconfronto.png">
+<page id="frase" bg_image="metroballontextconfronto.png">
 <agent
       id="narrativa"
       text="clique aqui para avançar"
@@ -626,7 +626,7 @@
          id="imagem2" 
          x="0" 
          y="0" 
-         image="metro2.png" 
+         image="metro2confronto.png" 
          animation="fade-in"
         /> 
 
@@ -654,7 +654,7 @@
          id="imagem1" 
          x="0" 
          y="0" 
-         image="metro2.png" 
+         image="metro2confronto.png" 
          animation="fade-in"
         /> 
 
