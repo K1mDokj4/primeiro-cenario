@@ -25,7 +25,7 @@
   <fab-if when="$mensagem_frase = 1">
       <agent
         id="narrador2"
-        text="Você olha para sua e percebe que Yoo Sangah está segurando seu braço com medo enquanto rói suas unhas e tenta ligar para a polícia"
+        text="Você olha para o lado e percebe que Yoo Sangah está segurando seu braço com medo enquanto rói suas unhas e tenta ligar para a polícia"
         x="10" 
         y="454" 
         color="dimgray"
@@ -457,6 +457,78 @@
       <agent
         id="Kim19"
         text='『Mas apenas ficar assistindo pode causa disso, realmente é o certo?』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 37">
+      <agent
+        id="Yoo3"
+        text='Desse jeito ela vai morrer! 『Yoo Sangah tenta avançar em direção a senhora』'
+        x="10" 
+        y="454" 
+        color="darkorange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 38">
+      <agent
+        id="Kim20"
+        text='Não faça isso é perigoso! Se você for vai ser você quem vai morrer'
+        x="10" 
+        y="454" 
+        color="darkorange"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 38">
+      <agent
+        id="Kim21"
+        text='『Yoo Sangah me olhou tremendo e segurando um choro』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 38">
+      <agent
+        id="Kim22"
+        text='『Acho que algumas pessoas continuam admiráveis, mesmo quando gênero da história muda』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 39">
+      <agent
+        id="Kim23"
+        text='『Mas Yoo Sangah não é quem pode mudar essa história. Ela não é o protagonista desse mundo』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 39">
+      <agent
+        id="narrador14"
+        text='E foi ai que você teve uma epifania'
         x="10" 
         y="454" 
         color="skyblue"
