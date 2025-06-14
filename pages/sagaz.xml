@@ -47,7 +47,7 @@
 
   <fab-if when="$mensagem_sagaz = 3">
       <agent
-        id="narrador4"
+        id="Kim1"
         text="Vou pegar isso emprestado, pegue um"
         x="10" 
         y="454" 
@@ -59,7 +59,19 @@
 
   <fab-if when="$mensagem_sagaz = 4">
       <agent
-        id="narrador5"
+        id="Gil1"
+        text="O-Ok tio, obrigado"
+        x="10" 
+        y="454" 
+        color="lawngreen"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  
+  <fab-if when="$mensagem_sagaz = 5">
+      <agent
+        id="Kim2"
         text="『Agora eu estava com a caixa de insetos na mão, nela só haviam 3, e agora que eu dei um para o garoto e já matei o meu, resta somente um...』"
         x="10" 
         y="454" 
@@ -68,5 +80,218 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 6">
+      <agent
+        id="Kim3"
+        text="TODOS PAREM! MESMO QUE VOCÊS MATEM ESSA SENHORA VOCÊS NÃO SOBREVIVERÃO"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="hover-pulse click-shake"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 7">
+      <agent
+        id="narrador4"
+        text="『Você conseguiu a atenção de todos』"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 8">
+      <agent
+        id="Kim4"
+        text="VAMOS DIZER QUE VOCÊS MATEM ESSA SENHORA. E ENTÃO?!"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="hover-pulse click-shake"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 9">
+      <agent
+        id="Kim5"
+        text="DE ACORDO COM O DIABRETE, CADA UM PRECISA MATAR NO MÍNIMO UMA PESSOA"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="hover-pulse click-shake"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 10">
+      <agent
+        id="Kim6"
+        text="ENTÃO QUEM VOCÊS VÃO MATAR DEPOIS DESSA SENHORA?! VOCÊS VÃO MATAR A PESSOA AO SEU LADO??"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="hover-pulse click-shake"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz =11">
+      <agent
+        id="Kim7"
+        text="Não precisamos apostar nossas vidas assim. Há um jeito de sobreviver sem precisar se tornar um assassino"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 12">
+      <agent
+        id="Crownd1"
+        text="Hã...? C-Como??"
+        x="10" 
+        y="454" 
+        color="silver"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 13">
+      <agent
+        id="Kim8"
+        text='A condição de conclusão desse cenário não é "Matar uma pessoa". Mas sim, "Matar um ou mais seres vivos"'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 14">
+      <agent
+        id="narrador5"
+        text='Você mostra um inseto na sua mão e mantém o último na caixa'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 15">
+      <agent
+        id="Crownd2"
+        text="INSETOS!!!"
+        x="10" 
+        y="454" 
+        color="silver"
+        font-size="24"
+        animation="hover-pulse click-shake"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 16">
+      <agent
+        id="Crownd3"
+        text="COM SOMENTE UM DESSES EU PODERIA...!"
+        x="10" 
+        y="454" 
+        color="silver"
+        font-size="24"
+        animation="hover-pulse click-shake"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 17">
+      <agent
+        id="Kim9"
+        text="『Aquela sede de sangue que estava fixada na senhora, se voltou a mim』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 18">
+      <agent
+        id="Kim10"
+        text="『Eu imagino o porquê, em uma situação precária como essa, meu coração está batendo de alegria e eu estou sorrindo』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 19">
+      <agent
+        id="Kim11"
+        text="『Talvez esse seja o tipo de pessoa que eu sempre fui?』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 20">
+      <agent
+        id="narrador6"
+        text="『Você esmaga o inseto e joga a caixa com o último nos pés de Yoo Sangah que te olha assustada, mas não demora para matar o inseto também』"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+  
+    <fab-if when="$mensagem_dokkaebi >= 00">
+       <agent 
+         id="imagem2" 
+         x="0" 
+         y="0" 
+         image="metro2confronto.png" 
+         animation="fade-in"
+        /> 
+
+      <agent 
+         id="imagem3" 
+         x="0" 
+         y="30" 
+         image="sistema.png" 
+         animation="float"
+        /> 
+  
+        <agent
+          id="prox-pag"
+          text="Próximo Ato"
+          x="630"
+          y="300"
+          animation="hover-grow"
+          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0)"
+          font-size="20"
+        />
+        </fab-if>
+
+  
+    </fab-if>
+
+
+  
   
 </page>
