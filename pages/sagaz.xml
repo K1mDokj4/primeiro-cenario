@@ -1,3 +1,36 @@
-<page id="sagaz" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página sagaz" color="white" font-size="24" />
+<page id="sagaz" bg_image="metroballontextconfronto.png">
+<agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_sagaz, $mensagem_sagaz+1)"
+      animation="hover-grow"
+  />
+<fab-if when="$mensagem_sagaz = 0">
+      <agent
+        id="narrador1"
+        text="Você correu procurando algo, qualquer coisa que não fosse vivo. Até que você se lembrou do garoto que você tinha visto antes disso tudo começar"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 1">
+      <agent
+        id="narrador2"
+        text="Não demorou muito e você achou ele. O garoto estava estático com olhos de peixe morto, no meio do vagão"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+  
 </page>
