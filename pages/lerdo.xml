@@ -1,3 +1,131 @@
-<page id="lerdo" bg_color="black">
-  <agent id="titulo" x="center" y="center" text="Página lerdo" color="white" font-size="24" />
+<page id="lerdo" bg_image="metroballontextconfronto.png">
+  <agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_lerdo, $mensagem_lerdo+1)"
+      animation="hover-grow"
+  />
+  <fab-if when="$mensagem_lerdo = 0">
+        <agent
+          id="narrador1"
+          text="Você correu procurando algo, qualquer coisa que não fosse vivo, você corria desesperado procurando qualquer coisa que fosse viva e não humana nesse caos"
+          x="10" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+        />
+      </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 1">
+        <agent
+          id="narrador2"
+          text="De vez em quando algumas pessoas tentavam chegar até você para te atacar mas você continuava correndo e olhando para o chão atrás de algum inseto"
+          x="10" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+        />
+      </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 2">
+        <agent
+          id="narrador3"
+          text="Até que seus olhos se encontram com um garoto imóvel, com o rosto sujo de sangue com os olhares penetrantes e curiosos em relação à um corpo decapitado"
+          x="10" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+        />
+      </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 3">
+        <agent
+          id="narrador4"
+          text="Ele tinha uma caixa de insetos e uma rede"
+          x="10" 
+          y="454" 
+          color="dimgray"
+          font-size="24"
+          animation="fade-in-up"
+        />
+      </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 4">
+      <agent
+        id="narrador5"
+        text="Você se abaixou e ficou na linha de visão dele, o que fez com que ele focasse em você"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 5">
+      <agent
+        id="narrador6"
+        text="Infelizmente seus planos foram jogados no lixo, dentro da caixa só havia dois insetos, o terceiro que você viu de longe já estava morto dentro da caixa"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 6">
+      <agent
+        id="Kim1"
+        text="『Merda... eu olhei no fundo dos olhos do garoto』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 7">
+      <agent
+        id="Kim2"
+        text="『O garoto não parecia entender o que eu queria, mas eu comecei a suar frio. Eu acabei fazendo a mesma coisa...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 8">
+      <agent
+        id="Kim3"
+        text="『Independente de quem eu escolher salvar... eu não vou ser melhor do que aqueles que pisoteram a senhora』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 8">
+      <agent
+        id="Kim3"
+        text="『Independente de quem eu escolher salvar... eu não vou ser melhor do que aqueles que pisoteram a senhora』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
 </page>
