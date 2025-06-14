@@ -492,7 +492,7 @@
         /> 
   
         <agent
-          id="trigger_colega"
+          id="prox-pag"
           text="Próximo Ato"
           x="630"
           y="300"
