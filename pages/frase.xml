@@ -121,7 +121,7 @@
   <fab-if when="$mensagem_frase = 9">
         <agent
           id="Dokkaebi2"
-          text="『Como vocês estão lerdando muito para começar logo o que eu mandei, vou mostrar o que acontecerá com vocês』"
+          text="『Como vocês estão lerdando muito para começar o cenário, vou mostrar o que acontecerá com vocês se ninguém fazer nada』"
           x="0" 
           y="454" 
           color="crimson"
@@ -662,7 +662,7 @@
          id="imagem4" 
          x="300" 
          y="50" 
-         image="3insetos.png" 
+         image="2insetos.png" 
          animation="float"
         /> 
   
@@ -672,7 +672,7 @@
           x="90"
           y="300"
           animation="hover-grow"
-        on_click="goToPage('sagaz'); set(mensagem_frase, 0)"
+        on_click="goToPage('lerdo'); set(mensagem_frase, 0)"
           font-size="30"
         />
         </fab-if>
