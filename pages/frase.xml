@@ -549,7 +549,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 43">
+  <fab-if when="$mensagem_frase = 44">
       <agent
         id="Kim25"
         text='Fique aqui Sangah'
@@ -561,7 +561,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 43">
+  <fab-if when="$mensagem_frase = 45">
       <agent
         id="Yoo4"
         text='Hã?? Mas...'
@@ -573,7 +573,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 44">
+  <fab-if when="$mensagem_frase = 46">
       <agent
         id="Kim26"
         text='Apenas me escute dessa vez. Então eu nunca mais vou me intrometer na sua vida de novo'
@@ -585,7 +585,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 45">
+  <fab-if when="$mensagem_frase = 47">
       <agent
         id="Kim27"
         text='『Para falar a verdade, não é bem a hora certa de intrometer, esse não era o meu plano original』'
@@ -597,7 +597,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 46">
+  <fab-if when="$mensagem_frase = 48">
       <agent
         id="Kim28"
         text='『O motivo para que não fazer nada por enquanto não era porque eu estava com medo de matar alguém, nem porque eu concordava com essa desumanidade』'
@@ -609,7 +609,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 47">
+  <fab-if when="$mensagem_frase = 49">
       <agent
         id="Kim29"
         text='『Eu só não queria correr o risco de mudar o futuro, mas já estamos aqui então não tem o que fazer.』'
@@ -621,7 +621,31 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase >= 48 and $insetos=true">
-      
-    </fab-if>
+  <fab-if when="$mensagem_frase >= 50 and $insetos=true">
+    <agent 
+         id="imagem2" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+
+      <agent 
+         id="imagem3" 
+         x="0" 
+         y="30" 
+         image="sistema.png" 
+         animation="float"
+        /> 
+  
+        <agent
+          id="prox-pag"
+          text="Próximo Ato"
+          x="630"
+          y="300"
+          animation="hover-grow"
+          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0)"
+          font-size="20"
+        />
+        </fab-if>
 </page>
