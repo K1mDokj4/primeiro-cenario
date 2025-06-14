@@ -84,7 +84,7 @@
   <fab-if when="$mensagem_dokkaebi = 6">
       <agent
         id="Yoo1"
-        text="Um Diabrete...?"
+        text="É um Diabrete...?"
         x="0" 
         y="454" 
         color="darkorange"
