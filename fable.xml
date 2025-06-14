@@ -12,6 +12,15 @@
   <property name="mensagem_sagaz" default="0" />
   <property name="insetos" default="false" />
   <property name="musicPlaying" default="false" />
+  
+  
+  <start />
+  <middle />
+  <celular/>
+  <colega />
+  <dokkaebi />
+  <prova />
+  <ambiente />
   <final-covarde />
   <final-psico />
   <frase />
