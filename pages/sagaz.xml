@@ -260,7 +260,7 @@
         animation="fade-in-up"
       />
   </fab-if>
-    <fab-if when="$mensagem_sagaz >= 0">
+    <fab-if when="$mensagem_sagaz >= 21">
        <agent 
          id="imagem2" 
          x="0" 
