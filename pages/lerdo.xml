@@ -117,15 +117,99 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 8">
+  <fab-if when="$mensagem_lerdo = 9">
       <agent
-        id="Kim3"
-        text="『Independente de quem eu escolher salvar... eu não vou ser melhor do que aqueles que pisoteram a senhora』"
+        id="constelacao1"
+        text="『Algumas constelações riem do seu desespero』"
+        x="10" 
+        y="454" 
+        color="white"
+        font-size="24"
+        animation="fade-in glow"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 10">
+      <agent
+        id="Kim4"
+        text="『Como eu li a novel já sabia como as constelações eram. Eram seres que estavam aqui somente pelo circo da desgraça』"
         x="10" 
         y="454" 
         color="skyblue"
         font-size="24"
         animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 11">
+      <agent
+        id="Kim5"
+        text="『Elas não se importam com nada além dessa tragédia, elas só querem mais sangue... mais escolhas absurdas...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 12">
+      <agent
+        id="Kim6"
+        text="『O que eu vou fazer?? Eu sujo as minhas mãos com o sangue da criança que tinha a resposta ou eu quebro minha promessa com Yoo Sangah??』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 13">
+      <agent
+        id="Kim7"
+        text="『Existe também uma terceira opção... mas ela é muito nobre para alguém como eu』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 14">
+      <agent
+        id="Kim8"
+        text="『Eu não sei o que fazer...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 15">
+      <agent
+        id="constelacao2"
+        text="『As constelações querem que você escolha logo』"
+        x="10" 
+        y="454" 
+        color="white"
+        font-size="24"
+        animation="fade-in glow"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 16">
+      <agent
+        id="narrador7"
+        text="Instintivamente você olha para cima,"
+        x="10" 
+        y="454" 
+        color="white"
+        font-size="24"
+        animation="fade-in glow"
       />
     </fab-if>
 </page>
