@@ -259,6 +259,7 @@
         font-size="24"
         animation="fade-in-up"
       />
+  </fab-if>
   
     <fab-if when="$mensagem_dokkaebi >= 00">
        <agent 
@@ -287,9 +288,6 @@
           font-size="20"
         />
         </fab-if>
-
-  
-    </fab-if>
 
 
   
