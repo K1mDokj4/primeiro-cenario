@@ -1,4 +1,4 @@
-<page id="prova"  bg_image="metroballontext_800x600_2_.png">
+<page id="prova"  bg_image="metroballontextconfronto.png">
 <agent
       id="narrativa"
       text="clique aqui para avançar"
@@ -131,7 +131,7 @@
          id="imagem1" 
          x="0" 
          y="0" 
-         image="metro2.png" 
+         image="metro2confronto.png" 
          animation="fade-in"
         /> 
         <agent
