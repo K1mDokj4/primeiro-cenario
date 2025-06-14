@@ -32,5 +32,41 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 2">
+      <agent
+        id="narrador3"
+        text="Você se abaixou e ficou na linha de visão dele, o que fez com que ele focasse em você"
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 3">
+      <agent
+        id="narrador4"
+        text="Vou pegar isso emprestado, pegue um"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_sagaz = 4">
+      <agent
+        id="narrador5"
+        text="『Agora eu estava com a caixa de insetos na mão, nela só haviam 3, e agora que eu dei um para o garoto e já matei o meu, resta somente um...』"
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
   
 </page>
