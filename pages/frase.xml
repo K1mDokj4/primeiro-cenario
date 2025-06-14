@@ -632,8 +632,8 @@
 
       <agent 
          id="imagem3" 
-         x="0" 
-         y="30" 
+         x="300" 
+         y="50" 
          image="3insetos.png" 
          animation="float"
         /> 
@@ -641,11 +641,40 @@
         <agent
           id="prox-pag"
           text="Próximo Ato"
-          x="630"
+          x="90"
           y="300"
           animation="hover-grow"
-          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0)"
-          font-size="20"
+        on_click="goToPage('sagaz'); set(mensagem_frase, 0)"
+          font-size="30"
         />
         </fab-if>
+
+  <fab-if when="$mensagem_frase >= 50 and $insetos=false">
+    <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2.png" 
+         animation="fade-in"
+        /> 
+
+      <agent 
+         id="imagem4" 
+         x="300" 
+         y="50" 
+         image="3insetos.png" 
+         animation="float"
+        /> 
+  
+        <agent
+          id="prox-pag2"
+          text="Próximo Ato"
+          x="90"
+          y="300"
+          animation="hover-grow"
+        on_click="goToPage('sagaz'); set(mensagem_frase, 0)"
+          font-size="30"
+        />
+        </fab-if>
+  
 </page>
