@@ -1,13 +1,13 @@
 <page id="frase" bg_image="metroballontext_800x600_2_.png">
-  <agent
-    id="narrativa"
-    text="clique aqui para avançar"
-    color="darkgray"
-    x="615" 
-    y="546"
-    font-size="15"
-    on_click="set(mensagem_frase, $mensagem_frase+1)"
-    animation="hover-grow"
+<agent
+      id="narrativa"
+      text="clique aqui para avançar"
+      color="darkgray"
+      x="615" 
+      y="546"
+      font-size="15"
+      on_click="set(mensagem_frase, $mensagem_frase+1)"
+      animation="hover-grow"
   />
 
   <fab-if when="$mensagem_frase = 0">
@@ -621,7 +621,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase >= 48">
+  <fab-if when="$mensagem_frase >= 48 and $insetos=true">
       
     </fab-if>
 </page>
