@@ -261,7 +261,7 @@
       />
   </fab-if>
   
-    <fab-if when="$mensagem_dokkaebi >= 00">
+    <fab-if when="$mensagem_frase >= 00">
        <agent 
          id="imagem2" 
          x="0" 
@@ -284,7 +284,7 @@
           x="630"
           y="300"
           animation="hover-grow"
-          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0)"
+          on_click="goToPage('prova'); set(mensagem_frase, 0)"
           font-size="20"
         />
         </fab-if>
