@@ -11,15 +11,7 @@
   <property name="mensagem_lerdo" default="0" />
   <property name="mensagem_sagaz" default="0" />
   <property name="insetos" default="false" />
-  
-  
-  <start />
-  <middle />
-  <celular/>
-  <colega />
-  <dokkaebi />
-  <prova />
-  <ambiente />
+  <property name="musicPlaying" default="false" />
   <final-covarde />
   <final-psico />
   <frase />
