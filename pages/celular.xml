@@ -206,7 +206,7 @@
   <fab-if when="$mensagem_celular = 16">
       <agent
         id="narrador3"
-        text="Seus olhos passaram rapidamente pelo vagão tentando não pensar muito sobre o isso"
+        text="Seus olhos passaram rapidamente pelo vagão tentando não pensar muito sobre isso"
         x="10" 
         y="454" 
         color="dimgray"
@@ -398,7 +398,7 @@
   <fab-if when="$mensagem_celular = 32">
         <agent
           id="Dokkaebi1"
-          text="『O serviço gratuido do sistema planetário 8612 terminou』"
+          text="『O serviço gratuito do sistema planetário 8612 terminou』"
           x="0" 
           y="454" 
           color="crimson"
