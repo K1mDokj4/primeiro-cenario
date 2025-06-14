@@ -235,9 +235,9 @@
         /> 
         <agent
           id="pergunta1"
-          text="Qual vai ser sua escolha?"
+          text="Qual vai ser sua escolha? Quem você irá sacrificar?"
           color="gold"
-          x="center"
+          x="135"
           y="210"
           font-size="25"
           animation="fade-in"
@@ -254,32 +254,32 @@
         />
       <agent
           id="trigger_cumplices"
-          text="Uma senhora indefesa no chão, gritando para que parem"
-          x="125"
-          y="390"
-          animation="hover-grow pulse click-shake"
-          on_click="set(mensagem_ambiente, 0); goToPage('final-covarde')"
+          text="O garoto imóvel que confiou em você"
+          x="210"
+          y="320"
+          animation="hover-pulse pulse"
+          on_click="set(mensagem_lerdo, 0); goToPage('final-cumplice')"
           font-size="24"
           color="crimson"
         />
     
         <agent
           id="trigger_bigbrother"
-          text="Uma senhora indefesa no chão, gritando para que parem"
-          x="125"
+          text="Yoo Sangah, que está te esperando onde você a deixou"
+          x="120"
           y="390"
-          animation="hover-grow pulse click-shake"
-          on_click="set(mensagem_ambiente, 0); goToPage('final-covarde')"
+          animation="hover-pulse pulse"
+          on_click="set(mensagem_lerdo, 0); goToPage('final-bigbrother')"
           font-size="24"
           color="crimson"
         />
         <agent
           id="trigger_martir"
-          text="O garoto imóvel, apavorado pelo corpo na sua frente"
+          text="Fazer algo nobre, e se sacrificar por eles dois"
           y="460"
-          x="145"
-          animation="hover-grow pulse click-shake"
-          on_click="set(mensagem_ambiente, 0); goToPage('final-psico')" 
+          x="170"
+          animation="hover-pulse pulse"
+          on_click="set(mensagem_lerdo, 0); goToPage('final-martir')" 
           font-size="24"
           color="crimson"
         />
