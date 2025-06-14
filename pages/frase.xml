@@ -620,4 +620,8 @@
         animation="fade-in-up"
       />
     </fab-if>
+
+  <fab-if when="$mensagem_frase >= 48">
+      
+    </fab-if>
 </page>
