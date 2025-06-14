@@ -11,7 +11,6 @@
   <property name="mensagem_lerdo" default="0" />
   <property name="mensagem_sagaz" default="0" />
   <property name="insetos" default="false" />
-  <property name="musicPlaying" default="false" />
   
   
   <start />
