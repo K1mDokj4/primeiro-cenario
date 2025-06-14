@@ -95,6 +95,18 @@
 
   <fab-if when="$mensagem_lerdo = 7">
       <agent
+        id="Gil1"
+        text="T-Tio eu quero viver, por favor... 『O garoto segurou o meu braço e entregou a caixa』"
+        x="10" 
+        y="454" 
+        color="lawngreen"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 8">
+      <agent
         id="Kim2"
         text="『O garoto não parecia entender o que eu queria, mas eu comecei a suar frio. Eu acabei fazendo a mesma coisa...』"
         x="10" 
@@ -105,7 +117,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 8">
+  <fab-if when="$mensagem_lerdo = 9">
       <agent
         id="Kim3"
         text="『Independente de quem eu escolher salvar... eu não vou ser melhor do que aqueles que pisoteram a senhora』"
@@ -117,7 +129,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 9">
+  <fab-if when="$mensagem_lerdo = 10">
       <agent
         id="constelacao1"
         text="『Algumas constelações riem do seu desespero』"
@@ -129,7 +141,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 10">
+  <fab-if when="$mensagem_lerdo = 11">
       <agent
         id="Kim4"
         text="『Como eu li a novel já sabia como as constelações eram. Eram seres que estavam aqui somente pelo circo da desgraça』"
@@ -141,7 +153,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 11">
+  <fab-if when="$mensagem_lerdo = 12">
       <agent
         id="Kim5"
         text="『Elas não se importam com nada além dessa tragédia, elas só querem mais sangue... mais escolhas absurdas...』"
@@ -153,7 +165,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 12">
+  <fab-if when="$mensagem_lerdo = 13">
       <agent
         id="Kim6"
         text="『O que eu vou fazer?? Eu sujo as minhas mãos com o sangue da criança que tinha a resposta ou eu quebro minha promessa com Yoo Sangah??』"
@@ -165,7 +177,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 13">
+  <fab-if when="$mensagem_lerdo = 14">
       <agent
         id="Kim7"
         text="『Existe também uma terceira opção... mas ela é muito nobre para alguém como eu』"
@@ -177,7 +189,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 14">
+  <fab-if when="$mensagem_lerdo = 15">
       <agent
         id="Kim8"
         text="『Eu não sei o que fazer...』"
@@ -189,7 +201,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 15">
+  <fab-if when="$mensagem_lerdo = 16">
       <agent
         id="constelacao2"
         text="『As constelações querem que você escolha logo』"
@@ -201,7 +213,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 16">
+  <fab-if when="$mensagem_lerdo = 17">
       <agent
         id="narrador7"
         text="Instintivamente você olha para cima, você realmente precisa decidir logo"
@@ -213,7 +225,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo = 17">
+  <fab-if when="$mensagem_lerdo = 18">
       <agent
         id="sistema"
         text="『Você tem 4 minutos para matar algo』"
@@ -225,7 +237,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_lerdo >= 0">
+  <fab-if when="$mensagem_lerdo >= 19">
       <agent 
          id="imagem1" 
          x="0" 
