@@ -497,7 +497,7 @@
           x="630"
           y="300"
           animation="hover-grow"
-          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0); setIf($musicPlaying = false, musicPlaying, true); playSound('osts-fear.mp3')"
+          on_click="goToPage('prova'); set(mensagem_dokkaebi, 0); setIf($musicPlaying = false, musicPlaying, true); playSound('somcomprimido.mp3')"
           font-size="20"
         />
         </fab-if>
