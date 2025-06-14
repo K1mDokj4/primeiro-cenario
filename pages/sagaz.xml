@@ -260,8 +260,7 @@
         animation="fade-in-up"
       />
   </fab-if>
-  
-    <fab-if when="$mensagem_frase >= 00">
+    <fab-if when="$mensagem_sagaz >= 0">
        <agent 
          id="imagem2" 
          x="0" 
@@ -269,27 +268,21 @@
          image="metro2confronto.png" 
          animation="fade-in"
         /> 
-
       <agent 
-         id="imagem3" 
+         id="image1" 
          x="0" 
-         y="30" 
-         image="sistema.png" 
+         y="40" 
+         image="sistema_concluido.png" 
          animation="float"
         /> 
-  
         <agent
           id="prox-pag"
-          text="Próximo Ato"
-          x="630"
-          y="300"
+          text="Clique aqui para confirmar finalização do cenário"
+          x="190"
+          y="540"
           animation="hover-grow"
-          on_click="goToPage('prova'); set(mensagem_frase, 0)"
+          on_click="goToPage('final-trueending'); set(mensagem_sagaz, 0)"
           font-size="20"
         />
-        </fab-if>
-
-
-  
-  
+    </fab-if>
 </page>
