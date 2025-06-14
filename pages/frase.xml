@@ -483,13 +483,13 @@
         text='Não faça isso é perigoso! Se você for vai ser você quem vai morrer'
         x="10" 
         y="454" 
-        color="darkorange"
+        color="skyblue"
         font-size="24"
         animation="fade-in-up"
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 38">
+  <fab-if when="$mensagem_frase = 39">
       <agent
         id="Kim21"
         text='『Yoo Sangah me olhou tremendo e segurando um choro』'
@@ -501,7 +501,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 38">
+  <fab-if when="$mensagem_frase = 40">
       <agent
         id="Kim22"
         text='『Acho que algumas pessoas continuam admiráveis, mesmo quando gênero da história muda』'
@@ -513,7 +513,7 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 39">
+  <fab-if when="$mensagem_frase = 41">
       <agent
         id="Kim23"
         text='『Mas Yoo Sangah não é quem pode mudar essa história. Ela não é o protagonista desse mundo』'
@@ -525,10 +525,94 @@
       />
     </fab-if>
 
-  <fab-if when="$mensagem_frase = 39">
+  <fab-if when="$mensagem_frase = 42">
       <agent
         id="narrador14"
-        text='E foi ai que você teve uma epifania'
+        text='E foi ai que você teve uma epifania. Você pensou novamente na instrução do Diabrete'
+        x="10" 
+        y="454" 
+        color="dimgray"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 43">
+      <agent
+        id="Kim24"
+        text='『"Mate um ser vivo"』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 43">
+      <agent
+        id="Kim25"
+        text='Fique aqui Sangah'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 43">
+      <agent
+        id="Yoo4"
+        text='Hã?? Mas...'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 44">
+      <agent
+        id="Kim26"
+        text='Apenas me escute dessa vez. Então eu nunca mais vou me intrometer na sua vida de novo'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 45">
+      <agent
+        id="Kim27"
+        text='『Para falar a verdade, não é bem a hora certa de intrometer, esse não era o meu plano original』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 46">
+      <agent
+        id="Kim28"
+        text='『O motivo para que não fazer nada por enquanto não era porque eu estava com medo de matar alguém, nem porque eu concordava com essa desumanidade』'
+        x="10" 
+        y="454" 
+        color="skyblue"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_frase = 47">
+      <agent
+        id="Kim29"
+        text='『Eu só não queria correr o risco de mudar o futuro, mas já estamos aqui então não tem o que fazer.』'
         x="10" 
         y="454" 
         color="skyblue"
