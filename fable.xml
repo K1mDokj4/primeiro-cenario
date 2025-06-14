@@ -8,6 +8,8 @@
   <property name="mensagem_prova" default="0" />
   <property name="mensagem_ambiente" default="0" />
   <property name="mensagem_frase" default="0" />
+  <property name="mensagem_lerdo" default="0" />
+  <property name="mensagem_sagaz" default="0" />
   <property name="insetos" default="false" />
   
   
