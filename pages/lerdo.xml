@@ -204,12 +204,84 @@
   <fab-if when="$mensagem_lerdo = 16">
       <agent
         id="narrador7"
-        text="Instintivamente você olha para cima,"
+        text="Instintivamente você olha para cima, você realmente precisa decidir logo"
         x="10" 
         y="454" 
         color="white"
         font-size="24"
         animation="fade-in glow"
       />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo = 17">
+      <agent
+        id="sistema"
+        text="『Você tem 4 minutos para matar algo』"
+        x="10" 
+        y="454" 
+        color="cyan"
+        font-size="24"
+        animation="fade-in-up"
+      />
+    </fab-if>
+
+  <fab-if when="$mensagem_lerdo >= 0">
+      <agent 
+         id="imagem1" 
+         x="0" 
+         y="0" 
+         image="metro2confronto.png" 
+         animation="fade-in"
+        /> 
+        <agent
+          id="pergunta1"
+          text="Qual vai ser sua escolha?"
+          color="gold"
+          x="center"
+          y="210"
+          font-size="25"
+          animation="fade-in"
+        />
+
+    <agent
+          id="pergunta2"
+          text="『Algumas constelações olham para você curiosas, elas sussuram algo entre si』"
+          color="white"
+          x="20"
+          y="255"
+          font-size="23"
+          animation="breathing glow"
+        />
+      <agent
+          id="trigger_cumplices"
+          text="Uma senhora indefesa no chão, gritando para que parem"
+          x="125"
+          y="390"
+          animation="hover-grow pulse click-shake"
+          on_click="set(mensagem_ambiente, 0); goToPage('final-covarde')"
+          font-size="24"
+          color="crimson"
+        />
+    
+        <agent
+          id="trigger_bigbrother"
+          text="Uma senhora indefesa no chão, gritando para que parem"
+          x="125"
+          y="390"
+          animation="hover-grow pulse click-shake"
+          on_click="set(mensagem_ambiente, 0); goToPage('final-covarde')"
+          font-size="24"
+          color="crimson"
+        />
+        <agent
+          id="trigger_martir"
+          text="O garoto imóvel, apavorado pelo corpo na sua frente"
+          y="460"
+          x="145"
+          animation="hover-grow pulse click-shake"
+          on_click="set(mensagem_ambiente, 0); goToPage('final-psico')" 
+          font-size="24"
+          color="crimson"
+        />
     </fab-if>
 </page>
