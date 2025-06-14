@@ -21,7 +21,7 @@
     id="true-2"
     x="110"
     y="210"
-    text="Yoo Sangah sobreviveu. E o garoto acreditou em você até o fim."
+    text="O garoto sobreviveu. E Yoo Sangah acreditou em você até o fim."
     color="white"
     font-size="24"
     animation="slide-up"
@@ -67,7 +67,7 @@
     id="true-7"
     x="110"
     y="410"
-    text='A história começou a reescrever-se por sua causa.'
+    text='A história começou a se reescrever por sua causa.'
     color="white"
     font-size="24"
     animation="slide-up"
