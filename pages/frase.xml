@@ -6,7 +6,7 @@
     x="615" 
     y="546"
     font-size="15"
-    on_click="setIf($mensagem_frase >= 48 and $insetos = true, goToPage('sagaz'); mensagem_frase, $mensagem_frase+1)"
+    on_click="set(mensagem_frase, $mensagem_frase+1)"
     animation="hover-grow"
   />
 
